@@ -19,3 +19,115 @@
 [2024-12-30T16:45:31.029+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:31.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-30T16:45:31.061+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:31.061+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:44:00+00:00, run_after=2024-12-30 16:46:00+00:00
 [2024-12-30T16:45:31.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.127 seconds
+[2024-12-30T16:46:01.602+0000] {processor.py:186} INFO - Started process (PID=33049) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:01.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:46:01.604+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:01.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:01.625+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:01.647+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:01.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:46:01.677+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:01.676+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:46:00+00:00, run_after=2024-12-30 16:48:00+00:00
+[2024-12-30T16:46:01.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.103 seconds
+[2024-12-30T16:46:32.147+0000] {processor.py:186} INFO - Started process (PID=33117) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:32.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:46:32.150+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:32.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:32.177+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:46:32.203+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:32.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:46:32.237+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:46:32.237+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:46:00+00:00, run_after=2024-12-30 16:48:00+00:00
+[2024-12-30T16:46:32.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.122 seconds
+[2024-12-30T16:47:02.315+0000] {processor.py:186} INFO - Started process (PID=33185) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:02.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:47:02.318+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:02.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:02.338+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:02.357+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:02.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:47:02.382+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:02.382+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:46:00+00:00, run_after=2024-12-30 16:48:00+00:00
+[2024-12-30T16:47:02.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.093 seconds
+[2024-12-30T16:47:32.447+0000] {processor.py:186} INFO - Started process (PID=33253) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:32.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:47:32.450+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:32.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:32.468+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:47:32.488+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:32.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:47:32.512+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:47:32.512+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:46:00+00:00, run_after=2024-12-30 16:48:00+00:00
+[2024-12-30T16:47:32.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.089 seconds
+[2024-12-30T16:48:03.326+0000] {processor.py:186} INFO - Started process (PID=33321) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:03.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:48:03.330+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:03.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:03.355+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:03.378+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:03.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:48:03.607+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:03.606+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:48:00+00:00, run_after=2024-12-30 16:50:00+00:00
+[2024-12-30T16:48:03.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.319 seconds
+[2024-12-30T16:48:33.964+0000] {processor.py:186} INFO - Started process (PID=33389) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:33.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:48:33.968+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:33.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:33.990+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:48:34.011+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:34.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:48:34.181+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:48:34.181+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:48:00+00:00, run_after=2024-12-30 16:50:00+00:00
+[2024-12-30T16:48:34.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.243 seconds
+[2024-12-30T16:49:04.636+0000] {processor.py:186} INFO - Started process (PID=33457) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:04.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:49:04.638+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:04.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:04.660+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:04.681+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:04.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:49:04.852+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:04.852+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:48:00+00:00, run_after=2024-12-30 16:50:00+00:00
+[2024-12-30T16:49:04.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.240 seconds
+[2024-12-30T16:49:35.277+0000] {processor.py:186} INFO - Started process (PID=33525) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:35.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:49:35.279+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:35.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:35.306+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:49:35.336+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:35.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:49:35.567+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:49:35.566+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:48:00+00:00, run_after=2024-12-30 16:50:00+00:00
+[2024-12-30T16:49:35.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.321 seconds
+[2024-12-30T16:50:05.728+0000] {processor.py:186} INFO - Started process (PID=33593) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:05.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:50:05.731+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:05.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:05.761+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:05.783+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:05.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:50:05.815+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:05.815+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:50:00+00:00, run_after=2024-12-30 16:52:00+00:00
+[2024-12-30T16:50:05.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.115 seconds
+[2024-12-30T16:50:36.070+0000] {processor.py:186} INFO - Started process (PID=33661) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:36.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:50:36.073+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:36.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:36.092+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:50:36.112+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:36.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:50:36.138+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:50:36.137+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:50:00+00:00, run_after=2024-12-30 16:52:00+00:00
+[2024-12-30T16:50:36.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.091 seconds
+[2024-12-30T16:51:06.265+0000] {processor.py:186} INFO - Started process (PID=33729) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:06.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:51:06.267+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:06.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:06.286+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:06.306+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:06.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:51:06.332+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:06.331+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:50:00+00:00, run_after=2024-12-30 16:52:00+00:00
+[2024-12-30T16:51:06.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.093 seconds
+[2024-12-30T16:51:36.406+0000] {processor.py:186} INFO - Started process (PID=33797) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:36.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:51:36.408+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:36.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:36.428+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:51:36.448+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:36.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:51:36.473+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:51:36.473+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:50:00+00:00, run_after=2024-12-30 16:52:00+00:00
+[2024-12-30T16:51:36.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.094 seconds
+[2024-12-30T16:52:06.925+0000] {processor.py:186} INFO - Started process (PID=33865) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:06.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:52:06.929+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:06.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:06.949+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:06.970+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:06.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:52:06.997+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:06.996+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:52:00+00:00, run_after=2024-12-30 16:54:00+00:00
+[2024-12-30T16:52:07.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.094 seconds
+[2024-12-30T16:52:37.351+0000] {processor.py:186} INFO - Started process (PID=33933) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:37.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:52:37.354+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:37.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:37.376+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:52:37.398+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:37.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:52:37.427+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:52:37.427+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:52:00+00:00, run_after=2024-12-30 16:54:00+00:00
+[2024-12-30T16:52:37.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.103 seconds
+[2024-12-30T16:53:07.596+0000] {processor.py:186} INFO - Started process (PID=34001) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:07.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:53:07.601+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:07.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:07.637+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:07.684+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:07.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:53:07.723+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:07.723+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:52:00+00:00, run_after=2024-12-30 16:54:00+00:00
+[2024-12-30T16:53:07.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.170 seconds
+[2024-12-30T16:53:38.238+0000] {processor.py:186} INFO - Started process (PID=34067) to work on /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:38.239+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/email_generation.py for tasks to queue
+[2024-12-30T16:53:38.241+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:38.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:38.262+0000] {processor.py:925} INFO - DAG(s) 'stock_price_monitor_v1' retrieved from /opt/airflow/dags/email_generation.py
+[2024-12-30T16:53:38.283+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:38.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:53:38.309+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:53:38.309+0000] {dag.py:4180} INFO - Setting next_dagrun for stock_price_monitor_v1 to 2024-12-30 16:52:00+00:00, run_after=2024-12-30 16:54:00+00:00
+[2024-12-30T16:53:38.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/email_generation.py took 0.097 seconds
