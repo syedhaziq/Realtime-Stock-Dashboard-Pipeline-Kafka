@@ -1,0 +1,37 @@
+[2024-12-28T14:07:25.850+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T14:07:25.864+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T14:07:23.229138+00:00 [queued]>
+[2024-12-28T14:07:25.871+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T14:07:23.229138+00:00 [queued]>
+[2024-12-28T14:07:25.873+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T14:07:25.885+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-28 14:07:23.229138+00:00
+[2024-12-28T14:07:25.893+0000] {standard_task_runner.py:72} INFO - Started process 1828 to run task
+[2024-12-28T14:07:25.896+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline', 'l30_dump_pipeline', 'manual__2024-12-28T14:07:23.229138+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/L30D_data_dump.py', '--cfg-path', '/tmp/tmpbrbi3f7u']
+[2024-12-28T14:07:25.898+0000] {standard_task_runner.py:105} INFO - Job 189: Subtask l30_dump_pipeline
+[2024-12-28T14:07:25.938+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T14:07:23.229138+00:00 [running]> on host 24435936fa97
+[2024-12-28T14:07:26.003+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-28T14:07:23.229138+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-28T14:07:23.229138+00:00'
+[2024-12-28T14:07:26.005+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T14:07:26.006+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T14:07:26.007+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-28 14:07:25.865775+00:00
+[2024-12-28T14:07:26.008+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline and current dag run status:running
+[2024-12-28T14:07:26.009+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T14:07:29.406+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f631bf48790>
+[2024-12-28T14:07:29.407+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-28T14:07:30.579+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-28T14:07:30.580+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 41551)
+[2024-12-28T14:07:32.439+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-28T14:07:32.440+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T14:07:33.195+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T14:07:33.196+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T14:07:33.205+0000] {logging_mixin.py:190} INFO - Successfully appended 0 rows to historical_stock_data
+[2024-12-28T14:08:04.906+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T14:08:06.142+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T14:08:06.144+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T14:08:06.148+0000] {logging_mixin.py:190} INFO - Successfully appended 63 rows to historical_stock_data
+[2024-12-28T14:08:46.662+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-28T14:08:46.664+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-28T14:08:46.665+0000] {process_utils.py:132} INFO - Sending 15 to group 1828. PIDs of all processes in the group: [1830, 1828]
+[2024-12-28T14:08:46.666+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 1828
+[2024-12-28T14:08:46.667+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-28T14:08:46.685+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-12-28T14:08:46.686+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T14:08:46.719+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1828, status='terminated', exitcode=0, started='14:07:25') (1828) terminated with exit code 0
+[2024-12-28T14:08:47.094+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1830, status='terminated', started='14:07:25') (1830) terminated with exit code None

@@ -1,0 +1,344 @@
+[2024-12-29T15:00:05.055+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-29T15:00:05.075+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T15:00:02.738588+00:00 [queued]>
+[2024-12-29T15:00:05.086+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T15:00:02.738588+00:00 [queued]>
+[2024-12-29T15:00:05.088+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-29T15:00:05.100+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-29 15:00:02.738588+00:00
+[2024-12-29T15:00:05.108+0000] {standard_task_runner.py:72} INFO - Started process 34195 to run task
+[2024-12-29T15:00:05.112+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-29T15:00:02.738588+00:00', '--job-id', '1138', '--raw', '--subdir', 'DAGS_FOLDER/realtime_data_dump.py', '--cfg-path', '/tmp/tmp_auayj2s']
+[2024-12-29T15:00:05.114+0000] {standard_task_runner.py:105} INFO - Job 1138: Subtask realtime_pipeline
+[2024-12-29T15:00:05.167+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T15:00:02.738588+00:00 [running]> on host 95d98a98d27d
+[2024-12-29T15:00:05.251+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-29T15:00:02.738588+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-29T15:00:02.738588+00:00'
+[2024-12-29T15:00:05.253+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-29T15:00:05.254+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-29T15:00:05.255+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-29 15:00:05.076884+00:00
+[2024-12-29T15:00:05.256+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-29T15:00:05.258+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-29T15:00:08.934+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7fef307aa8c0>
+[2024-12-29T15:00:08.935+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-29T15:00:09.940+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-29T15:00:10.170+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-29T15:00:10.173+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 35291)
+[2024-12-29T15:00:11.690+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-29T15:00:11.692+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:11.696+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:13.572+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:13.591+0000] {logging_mixin.py:190} INFO - Successfully appended 809 rows to stock_prices
+[2024-12-29T15:00:13.781+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:13.784+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:14.363+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:14.365+0000] {logging_mixin.py:190} INFO - Successfully appended 2 rows to stock_prices
+[2024-12-29T15:00:14.995+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:15.001+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:15.583+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:15.586+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:16.286+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:16.291+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:16.855+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:16.858+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:17.590+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:17.594+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:18.153+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:18.156+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:18.902+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:18.906+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:19.475+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:19.479+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:20.242+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:20.246+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:20.813+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:20.817+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:21.606+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:21.610+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:22.171+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:22.173+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:22.923+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:22.927+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:23.485+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:23.489+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:24.250+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:24.254+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:24.813+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:24.817+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:25.622+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:25.626+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:26.182+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:26.185+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:26.936+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:26.939+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:27.715+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:27.718+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:28.253+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:28.256+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:28.825+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:28.829+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:29.575+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:29.579+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:30.129+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:30.134+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:30.889+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:30.893+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:31.447+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:31.451+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:32.201+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:32.205+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:32.756+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:32.759+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:33.524+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:33.528+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:34.081+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:34.085+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:34.871+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:34.875+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:35.433+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:35.439+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:36.176+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:36.179+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:36.731+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:36.735+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:37.490+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:37.494+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:38.049+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:38.053+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:38.852+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:38.857+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:39.414+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:39.418+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:40.129+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:40.133+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:40.681+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:40.685+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:41.455+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:41.459+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:42.008+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:42.012+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:42.791+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:42.794+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:43.340+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:43.343+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:44.109+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:44.113+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:44.668+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:44.671+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:45.444+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:45.449+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:46.015+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:46.018+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:46.745+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:46.749+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:47.299+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:47.302+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:48.059+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:48.063+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:48.606+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:48.609+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:49.387+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:49.391+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:49.938+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:49.940+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:50.767+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:50.778+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:51.336+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:51.340+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:52.059+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:52.063+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:52.607+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:52.610+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:53.375+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:53.378+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:53.926+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:53.929+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:54.703+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:54.706+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:55.265+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:55.270+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:56.019+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:56.023+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:56.573+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:56.576+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:57.355+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:57.359+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:57.897+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:57.900+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:58.660+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:58.663+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:00:59.208+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:00:59.211+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:00:59.982+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:00:59.986+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:00.532+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:00.536+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:01.302+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:01.306+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:01.860+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:01.863+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:02.637+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:02.640+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:03.179+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:03.182+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:03.940+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:03.944+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:04.483+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:04.486+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:05.265+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:05.268+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:05.805+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:05.808+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:06.586+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:06.590+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:07.132+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:07.135+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:07.933+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:07.936+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:08.478+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:08.481+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:09.277+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:09.280+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:09.826+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T15:01:09.829+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T15:01:10.788+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T15:01:10.792+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T15:01:10.794+0000] {logging_mixin.py:190} INFO - Time is up!
+[2024-12-29T15:01:10.795+0000] {clientserver.py:621} ERROR - There was an exception while executing the Python Proxy on the Python Side.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 170, in <lambda>
+    .foreachBatch(lambda batch_df, batch_id: write_to_postgres(batch_df, batch_id, endtime)) \
+  File "/opt/airflow/etl/data_dump_v2.py", line 90, in write_to_postgres
+    raise Exception("Stopping the stream at 5 PM.")
+Exception: Stopping the stream at 5 PM.
+[2024-12-29T15:01:10.849+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 12, in data_dump_pipeline
+    spark_streaming(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 172, in spark_streaming
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = ab63c327-bc39-413a-ac4f-37c20d1cb0aa, runId = 426a8038-dcc0-4bf5-b7bb-4885f6ae39e7] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 170, in <lambda>
+    .foreachBatch(lambda batch_df, batch_id: write_to_postgres(batch_df, batch_id, endtime)) \
+  File "/opt/airflow/etl/data_dump_v2.py", line 90, in write_to_postgres
+    raise Exception("Stopping the stream at 5 PM.")
+Exception: Stopping the stream at 5 PM.
+
+[2024-12-29T15:01:10.870+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-29T15:01:10.872+0000] {logging_mixin.py:190} INFO - Task start:2024-12-29 15:00:05.076884+00:00 end:2024-12-29 15:01:10.870235+00:00 duration:65.793351
+[2024-12-29T15:01:10.873+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): realtime_pipeline> dag:<DAG: realtime_dump_pipeline> dagrun:<DagRun realtime_dump_pipeline @ 2024-12-29 15:00:02.738588+00:00: manual__2024-12-29T15:00:02.738588+00:00, state:running, queued_at: 2024-12-29 15:00:02.791819+00:00. externally triggered: True>
+[2024-12-29T15:01:10.877+0000] {logging_mixin.py:190} INFO - Failure caused by [STREAM_FAILED] Query [id = ab63c327-bc39-413a-ac4f-37c20d1cb0aa, runId = 426a8038-dcc0-4bf5-b7bb-4885f6ae39e7] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/***/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/***/etl/data_dump_v2.py", line 170, in <lambda>
+    .foreachBatch(lambda batch_df, batch_id: write_to_postgres(batch_df, batch_id, endtime)) \
+  File "/opt/***/etl/data_dump_v2.py", line 90, in write_to_postgres
+    raise Exception("Stopping the stream at 5 PM.")
+Exception: Stopping the stream at 5 PM.
+[2024-12-29T15:01:10.879+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=realtime_dump_pipeline, task_id=realtime_pipeline, run_id=manual__2024-12-29T15:00:02.738588+00:00, execution_date=20241229T150002, start_date=20241229T150005, end_date=20241229T150110
+[2024-12-29T15:01:10.899+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-29T15:01:10.900+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 1138 for task realtime_pipeline ([STREAM_FAILED] Query [id = ab63c327-bc39-413a-ac4f-37c20d1cb0aa, runId = 426a8038-dcc0-4bf5-b7bb-4885f6ae39e7] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 170, in <lambda>
+    .foreachBatch(lambda batch_df, batch_id: write_to_postgres(batch_df, batch_id, endtime)) \
+  File "/opt/airflow/etl/data_dump_v2.py", line 90, in write_to_postgres
+    raise Exception("Stopping the stream at 5 PM.")
+Exception: Stopping the stream at 5 PM.
+; 34195)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 12, in data_dump_pipeline
+    spark_streaming(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 172, in spark_streaming
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = ab63c327-bc39-413a-ac4f-37c20d1cb0aa, runId = 426a8038-dcc0-4bf5-b7bb-4885f6ae39e7] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 170, in <lambda>
+    .foreachBatch(lambda batch_df, batch_id: write_to_postgres(batch_df, batch_id, endtime)) \
+  File "/opt/airflow/etl/data_dump_v2.py", line 90, in write_to_postgres
+    raise Exception("Stopping the stream at 5 PM.")
+Exception: Stopping the stream at 5 PM.
+
+[2024-12-29T15:01:10.947+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-29T15:01:10.962+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

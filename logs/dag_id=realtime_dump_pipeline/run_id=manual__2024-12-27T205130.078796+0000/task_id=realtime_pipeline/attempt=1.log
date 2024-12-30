@@ -1,0 +1,163 @@
+[2024-12-27T20:51:32.188+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-27T20:51:32.203+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-27T20:51:30.078796+00:00 [queued]>
+[2024-12-27T20:51:32.211+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-27T20:51:30.078796+00:00 [queued]>
+[2024-12-27T20:51:32.213+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-27T20:51:32.224+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-27 20:51:30.078796+00:00
+[2024-12-27T20:51:32.233+0000] {standard_task_runner.py:72} INFO - Started process 18821 to run task
+[2024-12-27T20:51:32.236+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-27T20:51:30.078796+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/realtime_data_dump.py', '--cfg-path', '/tmp/tmpji6j9y6g']
+[2024-12-27T20:51:32.238+0000] {standard_task_runner.py:105} INFO - Job 126: Subtask realtime_pipeline
+[2024-12-27T20:51:32.278+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-27T20:51:30.078796+00:00 [running]> on host 0a732720d1ba
+[2024-12-27T20:51:32.347+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-27T20:51:30.078796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-27T20:51:30.078796+00:00'
+[2024-12-27T20:51:32.349+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-27T20:51:32.350+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-27T20:51:32.351+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-27 20:51:32.204946+00:00
+[2024-12-27T20:51:32.352+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-27T20:51:32.353+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-27T20:51:37.924+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7fbafde83250>
+[2024-12-27T20:51:37.926+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-27T20:51:39.574+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-27T20:51:39.792+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-27T20:51:39.794+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 41497)
+[2024-12-27T20:51:41.629+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-27T20:51:41.630+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-27T20:51:43.610+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-27T20:51:43.619+0000] {logging_mixin.py:190} INFO - Error: column "volume" of relation "stock_prices" does not exist
+[2024-12-27T20:51:43.621+0000] {clientserver.py:621} ERROR - There was an exception while executing the Python Proxy on the Python Side.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 127, in write_to_postgres
+    cur.copy_from(
+psycopg2.errors.UndefinedColumn: column "volume" of relation "stock_prices" does not exist
+
+[2024-12-27T20:51:43.676+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 12, in data_dump_pipeline
+    spark_streaming(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 161, in spark_streaming
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = 82964d53-aba0-4308-aae3-6258253a7c3c, runId = 7bd3682f-fe0a-4b93-bacb-d8ae17076f51] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 127, in write_to_postgres
+    cur.copy_from(
+psycopg2.errors.UndefinedColumn: column "volume" of relation "stock_prices" does not exist
+
+
+[2024-12-27T20:51:43.694+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-27T20:51:43.696+0000] {logging_mixin.py:190} INFO - Task start:2024-12-27 20:51:32.204946+00:00 end:2024-12-27 20:51:43.694257+00:00 duration:11.489311
+[2024-12-27T20:51:43.697+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): realtime_pipeline> dag:<DAG: realtime_dump_pipeline> dagrun:<DagRun realtime_dump_pipeline @ 2024-12-27 20:51:30.078796+00:00: manual__2024-12-27T20:51:30.078796+00:00, state:running, queued_at: 2024-12-27 20:51:30.114974+00:00. externally triggered: True>
+[2024-12-27T20:51:43.700+0000] {logging_mixin.py:190} INFO - Failure caused by [STREAM_FAILED] Query [id = 82964d53-aba0-4308-aae3-6258253a7c3c, runId = 7bd3682f-fe0a-4b93-bacb-d8ae17076f51] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/***/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/***/etl/data_dump_v2.py", line 127, in write_to_postgres
+    cur.copy_from(
+psycopg2.errors.UndefinedColumn: column "volume" of relation "stock_prices" does not exist
+[2024-12-27T20:51:43.701+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=realtime_dump_pipeline, task_id=realtime_pipeline, run_id=manual__2024-12-27T20:51:30.078796+00:00, execution_date=20241227T205130, start_date=20241227T205132, end_date=20241227T205143
+[2024-12-27T20:51:43.721+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-27T20:51:43.722+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 126 for task realtime_pipeline ([STREAM_FAILED] Query [id = 82964d53-aba0-4308-aae3-6258253a7c3c, runId = 7bd3682f-fe0a-4b93-bacb-d8ae17076f51] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 127, in write_to_postgres
+    cur.copy_from(
+psycopg2.errors.UndefinedColumn: column "volume" of relation "stock_prices" does not exist
+
+; 18821)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 12, in data_dump_pipeline
+    spark_streaming(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 161, in spark_streaming
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = 82964d53-aba0-4308-aae3-6258253a7c3c, runId = 7bd3682f-fe0a-4b93-bacb-d8ae17076f51] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 127, in write_to_postgres
+    cur.copy_from(
+psycopg2.errors.UndefinedColumn: column "volume" of relation "stock_prices" does not exist
+
+
+[2024-12-27T20:51:43.758+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-27T20:51:43.778+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-27T20:51:43.780+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

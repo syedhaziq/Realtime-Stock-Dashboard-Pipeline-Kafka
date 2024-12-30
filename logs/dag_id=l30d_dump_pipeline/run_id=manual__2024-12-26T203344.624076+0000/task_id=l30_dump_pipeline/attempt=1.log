@@ -1,0 +1,37 @@
+[2024-12-26T20:33:47.485+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T20:33:47.500+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:33:44.624076+00:00 [queued]>
+[2024-12-26T20:33:47.509+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:33:44.624076+00:00 [queued]>
+[2024-12-26T20:33:47.511+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T20:33:47.522+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-26 20:33:44.624076+00:00
+[2024-12-26T20:33:47.529+0000] {standard_task_runner.py:72} INFO - Started process 6543 to run task
+[2024-12-26T20:33:47.532+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline', 'l30_dump_pipeline', 'manual__2024-12-26T20:33:44.624076+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/L30D_data_dump.py', '--cfg-path', '/tmp/tmpz1en6ce2']
+[2024-12-26T20:33:47.535+0000] {standard_task_runner.py:105} INFO - Job 96: Subtask l30_dump_pipeline
+[2024-12-26T20:33:47.578+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:33:44.624076+00:00 [running]> on host c36613fa3dab
+[2024-12-26T20:33:47.640+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-26T20:33:44.624076+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-26T20:33:44.624076+00:00'
+[2024-12-26T20:33:47.642+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-26T20:33:47.643+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-26T20:33:47.644+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-26 20:33:47.502324+00:00
+[2024-12-26T20:33:47.645+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline and current dag run status:running
+[2024-12-26T20:33:47.646+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T20:33:51.098+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f53e4c9c0d0>
+[2024-12-26T20:33:51.100+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-26T20:33:52.434+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-26T20:33:52.436+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 41431)
+[2024-12-26T20:33:54.071+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-26T20:33:54.072+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T20:33:54.669+0000] {logging_mixin.py:190} INFO - True
+[2024-12-26T20:33:54.670+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-26T20:33:54.680+0000] {logging_mixin.py:190} INFO - Successfully appended 0 rows to historical_stock_data
+[2024-12-26T20:34:26.694+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T20:34:27.875+0000] {logging_mixin.py:190} INFO - True
+[2024-12-26T20:34:27.876+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-26T20:34:27.883+0000] {logging_mixin.py:190} INFO - Successfully appended 64 rows to historical_stock_data
+[2024-12-26T20:35:27.058+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T20:35:27.638+0000] {logging_mixin.py:190} INFO - True
+[2024-12-26T20:35:27.640+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-26T20:35:27.644+0000] {logging_mixin.py:190} INFO - Successfully appended 64 rows to historical_stock_data
+[2024-12-26T20:38:51.104+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T20:38:51.694+0000] {logging_mixin.py:190} INFO - True
+[2024-12-26T20:38:51.695+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-26T20:38:51.700+0000] {logging_mixin.py:190} INFO - Successfully appended 64 rows to historical_stock_data
+[2024-12-27T17:51:23.999+0000] {job.py:229} INFO - Heartbeat recovered after 75884.39 seconds

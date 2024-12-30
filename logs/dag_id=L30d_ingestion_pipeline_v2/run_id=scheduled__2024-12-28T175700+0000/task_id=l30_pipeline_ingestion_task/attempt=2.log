@@ -1,0 +1,61 @@
+[2024-12-28T20:11:22.526+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T20:11:22.551+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: L30d_ingestion_pipeline_v2.l30_pipeline_ingestion_task scheduled__2024-12-28T17:57:00+00:00 [queued]>
+[2024-12-28T20:11:22.566+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: L30d_ingestion_pipeline_v2.l30_pipeline_ingestion_task scheduled__2024-12-28T17:57:00+00:00 [queued]>
+[2024-12-28T20:11:22.572+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 3
+[2024-12-28T20:11:22.655+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_pipeline_ingestion_task> on 2024-12-28 17:57:00+00:00
+[2024-12-28T20:11:22.686+0000] {standard_task_runner.py:72} INFO - Started process 1713 to run task
+[2024-12-28T20:11:22.699+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'L30d_ingestion_pipeline_v2', 'l30_pipeline_ingestion_task', 'scheduled__2024-12-28T17:57:00+00:00', '--job-id', '871', '--raw', '--subdir', 'DAGS_FOLDER/L30D_ingestion_dump.py', '--cfg-path', '/tmp/tmpghczya69']
+[2024-12-28T20:11:22.709+0000] {standard_task_runner.py:105} INFO - Job 871: Subtask l30_pipeline_ingestion_task
+[2024-12-28T20:11:22.849+0000] {task_command.py:467} INFO - Running <TaskInstance: L30d_ingestion_pipeline_v2.l30_pipeline_ingestion_task scheduled__2024-12-28T17:57:00+00:00 [running]> on host 95d98a98d27d
+[2024-12-28T20:11:23.663+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='L30d_ingestion_pipeline_v2' AIRFLOW_CTX_TASK_ID='l30_pipeline_ingestion_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-28T17:57:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-28T17:57:00+00:00'
+[2024-12-28T20:11:23.667+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T20:11:23.669+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T20:11:23.671+0000] {logging_mixin.py:190} INFO - Current task name:l30_pipeline_ingestion_task state:running start_date:2024-12-28 20:11:22.554765+00:00
+[2024-12-28T20:11:23.672+0000] {logging_mixin.py:190} INFO - Dag name:L30d_ingestion_pipeline_v2 and current dag run status:running
+[2024-12-28T20:11:23.673+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T20:11:23.679+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T20:11:23.682+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T20:11:23.685+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T20:11:23.850+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-28T20:11:23.852+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-28T20:11:23.856+0000] {data_ingestion.py:75} INFO - Producer has been created successfully
+[2024-12-28T20:11:23.865+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T20:11:23.867+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T20:11:23.871+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T20:11:23.975+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-28T20:11:23.978+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-28T20:11:23.981+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T20:11:24.085+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-28T20:11:24.086+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-28T20:11:24.092+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T20:11:24.093+0000] {conn.py:1205} INFO - Probing node 1 broker version
+[2024-12-28T20:11:24.095+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T20:11:24.097+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-28T20:11:24.202+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-28T20:11:24.204+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-28T20:11:24.207+0000] {data_ingestion.py:93} INFO - The topic already exist!!!
+[2024-12-28T20:11:24.209+0000] {conn.py:919} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-28T20:11:59.388+0000] {history.py:245} ERROR - $AAPL: possibly delisted; no price data found  (period=3mo)
+[2024-12-28T20:11:59.456+0000] {data_ingestion.py:50} INFO - Last 30 days data has been fetched successfully for AAPL!!!
+[2024-12-28T20:11:59.465+0000] {data_ingestion.py:51} INFO - Empty DataFrame
+Columns: [Date, Open, Close]
+Index: []
+[2024-12-28T20:11:59.503+0000] {logging_mixin.py:190} INFO - "[]"
+[2024-12-28T20:11:59.507+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7fef3077b940>
+[2024-12-28T20:11:59.510+0000] {logging_mixin.py:190} INFO - L30d
+[2024-12-28T20:11:59.811+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T20:11:59.826+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T20:11:59.868+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-28T20:12:00.115+0000] {data_ingestion.py:167} INFO - data send successfully
+[2024-12-28T20:12:00.135+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-28T20:12:00.221+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T20:12:00.222+0000] {job.py:229} INFO - Heartbeat recovered after 37.83 seconds
+[2024-12-28T20:12:00.266+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=L30d_ingestion_pipeline_v2, task_id=l30_pipeline_ingestion_task, run_id=scheduled__2024-12-28T17:57:00+00:00, execution_date=20241228T175700, start_date=20241228T201122, end_date=20241228T201200
+[2024-12-28T20:12:00.281+0000] {taskinstance.py:1563} INFO - Executing callback at index 0: task1_success_callback
+[2024-12-28T20:12:00.500+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-28T20:12:00.525+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-28T20:12:00.540+0000] {logging_mixin.py:190} INFO - Dag name:L30d_ingestion_pipeline_v2 queued_at:2024-12-28 20:07:59.984303+00:00
+[2024-12-28T20:12:00.594+0000] {logging_mixin.py:190} INFO - Task hostname:95d98a98d27d operator:PythonOperator
+[2024-12-28T20:12:00.683+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-28T20:12:00.738+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-28T20:12:00.742+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

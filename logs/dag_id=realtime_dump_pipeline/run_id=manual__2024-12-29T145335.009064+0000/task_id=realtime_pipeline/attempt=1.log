@@ -1,0 +1,145 @@
+[2024-12-29T14:53:37.563+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-29T14:53:37.579+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T14:53:35.009064+00:00 [queued]>
+[2024-12-29T14:53:37.586+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T14:53:35.009064+00:00 [queued]>
+[2024-12-29T14:53:37.588+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-29T14:53:37.598+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-29 14:53:35.009064+00:00
+[2024-12-29T14:53:37.605+0000] {standard_task_runner.py:72} INFO - Started process 30093 to run task
+[2024-12-29T14:53:37.608+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-29T14:53:35.009064+00:00', '--job-id', '1133', '--raw', '--subdir', 'DAGS_FOLDER/realtime_data_dump.py', '--cfg-path', '/tmp/tmpgq4hln_j']
+[2024-12-29T14:53:37.610+0000] {standard_task_runner.py:105} INFO - Job 1133: Subtask realtime_pipeline
+[2024-12-29T14:53:37.649+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-29T14:53:35.009064+00:00 [running]> on host 95d98a98d27d
+[2024-12-29T14:53:37.715+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-29T14:53:35.009064+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-29T14:53:35.009064+00:00'
+[2024-12-29T14:53:37.716+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-29T14:53:37.717+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-29T14:53:37.718+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-29 14:53:37.580617+00:00
+[2024-12-29T14:53:37.719+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-29T14:53:37.720+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-29T14:53:41.243+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7fef307ac070>
+[2024-12-29T14:53:41.245+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-29T14:53:42.209+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-29T14:53:42.443+0000] {logging_mixin.py:190} INFO - hello
+[2024-12-29T14:53:42.466+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-29T14:53:42.468+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 37869)
+[2024-12-29T14:53:43.979+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-29T14:53:43.981+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:45.921+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:45.934+0000] {logging_mixin.py:190} INFO - Successfully appended 516 rows to stock_prices
+[2024-12-29T14:53:46.085+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:46.204+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:46.207+0000] {logging_mixin.py:190} INFO - Successfully appended 2 rows to stock_prices
+[2024-12-29T14:53:46.413+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:47.006+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:47.009+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:47.722+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:48.308+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:48.311+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:49.006+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:49.564+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:49.568+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:50.317+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:50.888+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:50.890+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:51.626+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:52.182+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:52.187+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:52.953+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:53.507+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:53.510+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:54.249+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:54.802+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:54.805+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:55.569+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:56.119+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:56.122+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:56.901+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:57.458+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:57.460+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:58.218+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:53:58.968+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:53:58.971+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:53:59.537+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:00.089+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:00.091+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:00.857+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:01.409+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:01.413+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:02.157+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:02.718+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:02.723+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:03.530+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:04.100+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:04.103+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:04.791+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:05.339+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:05.344+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:06.102+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:06.662+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:06.665+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:07.451+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:08.018+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:08.021+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:08.742+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:09.286+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:09.290+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:10.047+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:10.601+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:10.606+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:11.376+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:11.931+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:11.935+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:12.696+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:13.247+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:13.250+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:14.019+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:14.586+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:14.590+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:15.350+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:15.905+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:15.908+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:16.676+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:17.227+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:17.230+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:17.986+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:18.539+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:18.542+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:19.285+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:19.834+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:19.837+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:20.609+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:21.155+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:21.218+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:21.917+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:22.462+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:22.464+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:23.231+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:23.777+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:23.781+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:24.574+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:25.129+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:25.132+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:25.896+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:26.450+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:26.454+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:27.216+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:27.767+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:27.771+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:28.526+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:29.077+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:29.080+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:29.858+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:30.531+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:30.536+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:31.198+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:31.769+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:31.772+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:32.504+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-29T14:54:33.082+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-29T14:54:33.086+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-29T14:54:33.149+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-29T14:54:33.151+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-29T14:54:33.153+0000] {process_utils.py:132} INFO - Sending 15 to group 30093. PIDs of all processes in the group: [30095, 30093]
+[2024-12-29T14:54:33.154+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 30093
+[2024-12-29T14:54:33.156+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-29T14:54:33.200+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-12-29T14:54:33.201+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-29T14:54:33.248+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=30093, status='terminated', exitcode=0, started='14:53:37') (30093) terminated with exit code 0
+[2024-12-29T14:54:33.620+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=30095, status='terminated', started='14:53:37') (30095) terminated with exit code None

@@ -1,0 +1,167 @@
+[2024-12-26T20:29:05.227+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T20:29:05.242+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:29:02.471392+00:00 [queued]>
+[2024-12-26T20:29:05.249+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:29:02.471392+00:00 [queued]>
+[2024-12-26T20:29:05.251+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T20:29:05.261+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-26 20:29:02.471392+00:00
+[2024-12-26T20:29:05.268+0000] {standard_task_runner.py:72} INFO - Started process 5887 to run task
+[2024-12-26T20:29:05.271+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline', 'l30_dump_pipeline', 'manual__2024-12-26T20:29:02.471392+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/L30D_data_dump.py', '--cfg-path', '/tmp/tmppykhes_y']
+[2024-12-26T20:29:05.274+0000] {standard_task_runner.py:105} INFO - Job 94: Subtask l30_dump_pipeline
+[2024-12-26T20:29:05.315+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-26T20:29:02.471392+00:00 [running]> on host c36613fa3dab
+[2024-12-26T20:29:05.373+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-26T20:29:02.471392+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-26T20:29:02.471392+00:00'
+[2024-12-26T20:29:05.376+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-26T20:29:05.377+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-26T20:29:05.377+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-26 20:29:05.243822+00:00
+[2024-12-26T20:29:05.378+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline and current dag run status:running
+[2024-12-26T20:29:05.379+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T20:29:08.799+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f53e4c9c0d0>
+[2024-12-26T20:29:08.801+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-26T20:29:10.127+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-26T20:29:10.128+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 39775)
+[2024-12-26T20:29:11.837+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-26T20:29:11.839+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T20:29:12.692+0000] {logging_mixin.py:190} INFO - Creating table
+[2024-12-26T20:29:12.693+0000] {logging_mixin.py:190} INFO - 
+                CREATE TABLE public.L30d_stock (
+                    date TEXT, open TEXT, close TEXT
+                );
+                
+[2024-12-26T20:29:12.696+0000] {logging_mixin.py:190} INFO - Error: relation "l30d_stock" already exists
+[2024-12-26T20:29:12.698+0000] {clientserver.py:621} ERROR - There was an exception while executing the Python Proxy on the Python Side.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 235, in write_to_postgres
+    cur.execute(create_table_query)
+psycopg2.errors.DuplicateTable: relation "l30d_stock" already exists
+
+[2024-12-26T20:29:12.748+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 15, in l30d_data_dump_pipeline
+    spark_l30d(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 282, in spark_l30d
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = 6b956dcc-5c29-45fa-b687-1b36d0dab04a, runId = 78a64c8f-3654-4470-96e6-16cbb7c15ee8] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 235, in write_to_postgres
+    cur.execute(create_table_query)
+psycopg2.errors.DuplicateTable: relation "l30d_stock" already exists
+
+
+[2024-12-26T20:29:12.785+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-26T20:29:12.787+0000] {logging_mixin.py:190} INFO - Task start:2024-12-26 20:29:05.243822+00:00 end:2024-12-26 20:29:12.783117+00:00 duration:7.539295
+[2024-12-26T20:29:12.788+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): l30_dump_pipeline> dag:<DAG: l30d_dump_pipeline> dagrun:<DagRun l30d_dump_pipeline @ 2024-12-26 20:29:02.471392+00:00: manual__2024-12-26T20:29:02.471392+00:00, state:running, queued_at: 2024-12-26 20:29:02.482014+00:00. externally triggered: True>
+[2024-12-26T20:29:12.791+0000] {logging_mixin.py:190} INFO - Failure caused by [STREAM_FAILED] Query [id = 6b956dcc-5c29-45fa-b687-1b36d0dab04a, runId = 78a64c8f-3654-4470-96e6-16cbb7c15ee8] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/***/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/***/etl/data_dump_v2.py", line 235, in write_to_postgres
+    cur.execute(create_table_query)
+psycopg2.errors.DuplicateTable: relation "l30d_stock" already exists
+[2024-12-26T20:29:12.793+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=l30d_dump_pipeline, task_id=l30_dump_pipeline, run_id=manual__2024-12-26T20:29:02.471392+00:00, execution_date=20241226T202902, start_date=20241226T202905, end_date=20241226T202912
+[2024-12-26T20:29:12.819+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T20:29:12.821+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 94 for task l30_dump_pipeline ([STREAM_FAILED] Query [id = 6b956dcc-5c29-45fa-b687-1b36d0dab04a, runId = 78a64c8f-3654-4470-96e6-16cbb7c15ee8] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 235, in write_to_postgres
+    cur.execute(create_table_query)
+psycopg2.errors.DuplicateTable: relation "l30d_stock" already exists
+
+; 5887)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 15, in l30d_data_dump_pipeline
+    spark_l30d(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 282, in spark_l30d
+    query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = 6b956dcc-5c29-45fa-b687-1b36d0dab04a, runId = 78a64c8f-3654-4470-96e6-16cbb7c15ee8] terminated with exception: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+  File "/opt/spark/python/pyspark/sql/utils.py", line 120, in call
+    raise e
+  File "/opt/spark/python/pyspark/sql/utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "/opt/airflow/etl/data_dump_v2.py", line 235, in write_to_postgres
+    cur.execute(create_table_query)
+psycopg2.errors.DuplicateTable: relation "l30d_stock" already exists
+
+
+[2024-12-26T20:29:12.869+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-26T20:29:12.888+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-26T20:29:12.891+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

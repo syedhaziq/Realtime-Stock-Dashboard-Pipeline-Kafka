@@ -1,0 +1,39 @@
+[2024-12-29T17:06:02.302+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-29T17:06:02.328+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_price_monitor_v1.check_stock_price scheduled__2024-12-29T17:04:00+00:00 [queued]>
+[2024-12-29T17:06:02.343+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_price_monitor_v1.check_stock_price scheduled__2024-12-29T17:04:00+00:00 [queued]>
+[2024-12-29T17:06:02.346+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-29T17:06:02.372+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): check_stock_price> on 2024-12-29 17:04:00+00:00
+[2024-12-29T17:06:02.382+0000] {standard_task_runner.py:72} INFO - Started process 44427 to run task
+[2024-12-29T17:06:02.388+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_price_monitor_v1', 'check_stock_price', 'scheduled__2024-12-29T17:04:00+00:00', '--job-id', '1266', '--raw', '--subdir', 'DAGS_FOLDER/email_generation.py', '--cfg-path', '/tmp/tmpxuby63h_']
+[2024-12-29T17:06:02.391+0000] {standard_task_runner.py:105} INFO - Job 1266: Subtask check_stock_price
+[2024-12-29T17:06:02.458+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_price_monitor_v1.check_stock_price scheduled__2024-12-29T17:04:00+00:00 [running]> on host 95d98a98d27d
+[2024-12-29T17:06:02.557+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='stock_price_monitor_v1' AIRFLOW_CTX_TASK_ID='check_stock_price' AIRFLOW_CTX_EXECUTION_DATE='2024-12-29T17:04:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-29T17:04:00+00:00'
+[2024-12-29T17:06:02.559+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-29T17:06:02.561+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-29T17:06:02.562+0000] {logging_mixin.py:190} INFO - Current task name:check_stock_price state:running start_date:2024-12-29 17:06:02.331433+00:00
+[2024-12-29T17:06:02.563+0000] {logging_mixin.py:190} INFO - Dag name:stock_price_monitor_v1 and current dag run status:running
+[2024-12-29T17:06:02.565+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-29T17:06:02.576+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2024-12-29T17:06:02.583+0000] {sql.py:544} INFO - Running statement: select 1, parameters: None
+[2024-12-29T17:06:02.585+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-29T17:06:02.587+0000] {logging_mixin.py:190} INFO - Connection successful
+[2024-12-29T17:06:02.589+0000] {logging_mixin.py:190} INFO - Checking stock price...
+[2024-12-29T17:06:02.594+0000] {sql.py:544} INFO - Running statement: 
+        SELECT ticker, "Current Price" as current_price 
+        FROM public.live_stock 
+        LIMIT 1;
+    , parameters: None
+[2024-12-29T17:06:02.602+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-29T17:06:02.603+0000] {logging_mixin.py:190} INFO - Records: [('AAPL', '$255.59')]
+[2024-12-29T17:06:02.604+0000] {logging_mixin.py:190} INFO - Ticker: AAPL, Price: 255.59
+[2024-12-29T17:06:02.645+0000] {logging_mixin.py:190} INFO - Normal: AAPL price $255.59 is above threshold $200
+[2024-12-29T17:06:02.647+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-29T17:06:02.659+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-29T17:06:02.661+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_price_monitor_v1, task_id=check_stock_price, run_id=scheduled__2024-12-29T17:04:00+00:00, execution_date=20241229T170400, start_date=20241229T170602, end_date=20241229T170602
+[2024-12-29T17:06:02.677+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-29T17:06:02.679+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-29T17:06:02.681+0000] {logging_mixin.py:190} INFO - Dag name:stock_price_monitor_v1 queued_at:2024-12-29 17:06:00.173023+00:00
+[2024-12-29T17:06:02.683+0000] {logging_mixin.py:190} INFO - Task hostname:95d98a98d27d operator:PythonOperator
+[2024-12-29T17:06:02.724+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-29T17:06:02.784+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-29T17:06:02.790+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

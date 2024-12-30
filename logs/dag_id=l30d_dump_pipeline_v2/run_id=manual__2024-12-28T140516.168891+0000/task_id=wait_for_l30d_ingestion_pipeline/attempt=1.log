@@ -1,0 +1,30 @@
+[2024-12-28T14:05:18.787+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T14:05:18.807+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline_v2.wait_for_l30d_ingestion_pipeline manual__2024-12-28T14:05:16.168891+00:00 [queued]>
+[2024-12-28T14:05:18.816+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline_v2.wait_for_l30d_ingestion_pipeline manual__2024-12-28T14:05:16.168891+00:00 [queued]>
+[2024-12-28T14:05:18.818+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T14:05:18.832+0000] {taskinstance.py:2889} INFO - Executing <Task(ExternalTaskSensor): wait_for_l30d_ingestion_pipeline> on 2024-12-28 14:05:16.168891+00:00
+[2024-12-28T14:05:18.841+0000] {standard_task_runner.py:72} INFO - Started process 1272 to run task
+[2024-12-28T14:05:18.845+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline_v2', 'wait_for_l30d_ingestion_pipeline', 'manual__2024-12-28T14:05:16.168891+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/L30D_ingestion_dump.py', '--cfg-path', '/tmp/tmpl6ihrfn5']
+[2024-12-28T14:05:18.847+0000] {standard_task_runner.py:105} INFO - Job 184: Subtask wait_for_l30d_ingestion_pipeline
+[2024-12-28T14:05:18.893+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline_v2.wait_for_l30d_ingestion_pipeline manual__2024-12-28T14:05:16.168891+00:00 [running]> on host 24435936fa97
+[2024-12-28T14:05:18.977+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline_v2' AIRFLOW_CTX_TASK_ID='wait_for_l30d_ingestion_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-28T14:05:16.168891+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-28T14:05:16.168891+00:00'
+[2024-12-28T14:05:18.979+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T14:05:18.981+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T14:05:18.983+0000] {logging_mixin.py:190} INFO - Current task name:wait_for_l30d_ingestion_pipeline state:running start_date:2024-12-28 14:05:18.809551+00:00
+[2024-12-28T14:05:18.984+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline_v2 and current dag run status:running
+[2024-12-28T14:05:18.985+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T14:05:18.987+0000] {baseoperator.py:416} WARNING - ExternalTaskSensor.execute cannot be called outside TaskInstance!
+[2024-12-28T14:05:18.988+0000] {external_task.py:258} INFO - Poking for tasks ['l30_pipeline_ingestion_task'] in dag L30d_ingestion_pipeline_v2 on 2024-12-28T14:05:16.168891+00:00 ... 
+[2024-12-28T14:05:18.990+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/session.py:97: DeprecationWarning: This method is deprecated and will be removed in future.
+  return func(*args, session=session, **kwargs)
+
+[2024-12-28T14:05:29.003+0000] {external_task.py:258} INFO - Poking for tasks ['l30_pipeline_ingestion_task'] in dag L30d_ingestion_pipeline_v2 on 2024-12-28T14:05:16.168891+00:00 ... 
+[2024-12-28T14:05:39.023+0000] {external_task.py:258} INFO - Poking for tasks ['l30_pipeline_ingestion_task'] in dag L30d_ingestion_pipeline_v2 on 2024-12-28T14:05:16.168891+00:00 ... 
+[2024-12-28T14:05:49.033+0000] {external_task.py:258} INFO - Poking for tasks ['l30_pipeline_ingestion_task'] in dag L30d_ingestion_pipeline_v2 on 2024-12-28T14:05:16.168891+00:00 ... 
+[2024-12-28T14:05:49.130+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-28T14:05:49.132+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-28T14:05:49.134+0000] {process_utils.py:132} INFO - Sending 15 to group 1272. PIDs of all processes in the group: [1272]
+[2024-12-28T14:05:49.135+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 1272
+[2024-12-28T14:05:49.136+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-28T14:05:49.152+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T14:05:49.162+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1272, status='terminated', exitcode=0, started='14:05:18') (1272) terminated with exit code 0

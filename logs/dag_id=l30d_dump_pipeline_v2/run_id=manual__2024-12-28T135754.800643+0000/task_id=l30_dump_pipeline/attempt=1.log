@@ -1,0 +1,29 @@
+[2024-12-28T14:03:59.003+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T14:03:59.022+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline_v2.l30_dump_pipeline manual__2024-12-28T13:57:54.800643+00:00 [queued]>
+[2024-12-28T14:03:59.033+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline_v2.l30_dump_pipeline manual__2024-12-28T13:57:54.800643+00:00 [queued]>
+[2024-12-28T14:03:59.034+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T14:03:59.046+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-28 13:57:54.800643+00:00
+[2024-12-28T14:03:59.053+0000] {standard_task_runner.py:72} INFO - Started process 987 to run task
+[2024-12-28T14:03:59.056+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline_v2', 'l30_dump_pipeline', 'manual__2024-12-28T13:57:54.800643+00:00', '--job-id', '181', '--raw', '--subdir', 'DAGS_FOLDER/L30D_ingestion_dump.py', '--cfg-path', '/tmp/tmpjzx47p6w']
+[2024-12-28T14:03:59.058+0000] {standard_task_runner.py:105} INFO - Job 181: Subtask l30_dump_pipeline
+[2024-12-28T14:03:59.099+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline_v2.l30_dump_pipeline manual__2024-12-28T13:57:54.800643+00:00 [running]> on host 24435936fa97
+[2024-12-28T14:03:59.165+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline_v2' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-28T13:57:54.800643+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-28T13:57:54.800643+00:00'
+[2024-12-28T14:03:59.167+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T14:03:59.168+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T14:03:59.169+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-28 14:03:59.024440+00:00
+[2024-12-28T14:03:59.170+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline_v2 and current dag run status:running
+[2024-12-28T14:03:59.171+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T14:04:04.657+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f631bf4a590>
+[2024-12-28T14:04:04.658+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-28T14:04:06.357+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-28T14:04:06.359+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 34181)
+[2024-12-28T14:04:06.653+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-28T14:04:06.669+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T14:04:06.670+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=l30d_dump_pipeline_v2, task_id=l30_dump_pipeline, run_id=manual__2024-12-28T13:57:54.800643+00:00, execution_date=20241228T135754, start_date=20241228T140359, end_date=20241228T140406
+[2024-12-28T14:04:06.686+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-28T14:04:06.688+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-28T14:04:06.690+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline_v2 queued_at:2024-12-28 13:57:54.809577+00:00
+[2024-12-28T14:04:06.691+0000] {logging_mixin.py:190} INFO - Task hostname:24435936fa97 operator:PythonOperator
+[2024-12-28T14:04:06.734+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-28T14:04:06.756+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-28T14:04:06.759+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

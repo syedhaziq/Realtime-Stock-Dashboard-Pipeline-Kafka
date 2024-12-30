@@ -1,0 +1,115 @@
+[2024-12-28T13:16:11.174+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T13:16:11.189+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: L30d_ingestion_pipeline.l30_pipeline_ingestion_task scheduled__2024-12-27T04:00:00+00:00 [queued]>
+[2024-12-28T13:16:11.196+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: L30d_ingestion_pipeline.l30_pipeline_ingestion_task scheduled__2024-12-27T04:00:00+00:00 [queued]>
+[2024-12-28T13:16:11.198+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T13:16:11.209+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_pipeline_ingestion_task> on 2024-12-27 04:00:00+00:00
+[2024-12-28T13:16:11.216+0000] {standard_task_runner.py:72} INFO - Started process 27667 to run task
+[2024-12-28T13:16:11.219+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'L30d_ingestion_pipeline', 'l30_pipeline_ingestion_task', 'scheduled__2024-12-27T04:00:00+00:00', '--job-id', '143', '--raw', '--subdir', 'DAGS_FOLDER/L30D_ingestion_dump.py', '--cfg-path', '/tmp/tmpa5g5gacn']
+[2024-12-28T13:16:11.220+0000] {standard_task_runner.py:105} INFO - Job 143: Subtask l30_pipeline_ingestion_task
+[2024-12-28T13:16:11.265+0000] {task_command.py:467} INFO - Running <TaskInstance: L30d_ingestion_pipeline.l30_pipeline_ingestion_task scheduled__2024-12-27T04:00:00+00:00 [running]> on host 0a732720d1ba
+[2024-12-28T13:16:11.329+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='L30d_ingestion_pipeline' AIRFLOW_CTX_TASK_ID='l30_pipeline_ingestion_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-27T04:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-27T04:00:00+00:00'
+[2024-12-28T13:16:11.331+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T13:16:11.332+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T13:16:11.334+0000] {logging_mixin.py:190} INFO - Current task name:l30_pipeline_ingestion_task state:running start_date:2024-12-28 13:16:11.190873+00:00
+[2024-12-28T13:16:11.335+0000] {logging_mixin.py:190} INFO - Dag name:L30d_ingestion_pipeline and current dag run status:running
+[2024-12-28T13:16:11.336+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T13:16:15.054+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2024-12-28T13:16:15.055+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2024-12-28T13:16:15.057+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T13:16:18.781+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2024-12-28T13:16:18.782+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2024-12-28T13:16:18.783+0000] {data_ingestion.py:78} ERROR - Couldn't create producer: NoBrokersAvailable
+[2024-12-28T13:16:22.513+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2024-12-28T13:16:22.515+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2024-12-28T13:16:22.516+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T13:16:26.236+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2024-12-28T13:16:26.237+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2024-12-28T13:16:26.239+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 9, in l30d_pipeline
+    data_ingestion_l30d(topic_name, ticker)
+  File "/opt/airflow/etl/data_ingestion.py", line 142, in data_ingestion_l30d
+    topic = topic_creation(topic_name)
+  File "/opt/airflow/etl/data_ingestion.py", line 84, in topic_creation
+    admin_client = KafkaAdminClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/admin/client.py", line 208, in __init__
+    self._client = KafkaClient(metrics=self._metrics,
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2024-12-28T13:16:26.270+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-28T13:16:26.271+0000] {logging_mixin.py:190} INFO - Task start:2024-12-28 13:16:11.190873+00:00 end:2024-12-28 13:16:26.269757+00:00 duration:15.078884
+[2024-12-28T13:16:26.272+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): l30_pipeline_ingestion_task> dag:<DAG: L30d_ingestion_pipeline> dagrun:<DagRun L30d_ingestion_pipeline @ 2024-12-27 04:00:00+00:00: scheduled__2024-12-27T04:00:00+00:00, state:running, queued_at: 2024-12-28 13:16:09.494796+00:00. externally triggered: False>
+[2024-12-28T13:16:26.273+0000] {logging_mixin.py:190} INFO - Failure caused by NoBrokersAvailable
+[2024-12-28T13:16:26.274+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=L30d_ingestion_pipeline, task_id=l30_pipeline_ingestion_task, run_id=scheduled__2024-12-27T04:00:00+00:00, execution_date=20241227T040000, start_date=20241228T131611, end_date=20241228T131626
+[2024-12-28T13:16:26.286+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T13:16:26.287+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 143 for task l30_pipeline_ingestion_task (NoBrokersAvailable; 27667)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 9, in l30d_pipeline
+    data_ingestion_l30d(topic_name, ticker)
+  File "/opt/airflow/etl/data_ingestion.py", line 142, in data_ingestion_l30d
+    topic = topic_creation(topic_name)
+  File "/opt/airflow/etl/data_ingestion.py", line 84, in topic_creation
+    admin_client = KafkaAdminClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/admin/client.py", line 208, in __init__
+    self._client = KafkaClient(metrics=self._metrics,
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.10/site-packages/kafka/client_async.py", line 927, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2024-12-28T13:16:26.311+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-28T13:16:26.329+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-28T13:16:26.331+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

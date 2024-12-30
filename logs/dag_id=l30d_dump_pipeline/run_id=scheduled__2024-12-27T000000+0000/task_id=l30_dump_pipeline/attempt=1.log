@@ -1,0 +1,123 @@
+[2024-12-28T12:40:51.990+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T12:40:52.013+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline scheduled__2024-12-27T00:00:00+00:00 [queued]>
+[2024-12-28T12:40:52.023+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline scheduled__2024-12-27T00:00:00+00:00 [queued]>
+[2024-12-28T12:40:52.025+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T12:40:52.044+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-27 00:00:00+00:00
+[2024-12-28T12:40:52.055+0000] {standard_task_runner.py:72} INFO - Started process 24141 to run task
+[2024-12-28T12:40:52.075+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline', 'l30_dump_pipeline', 'scheduled__2024-12-27T00:00:00+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/L30D_data_dump.py', '--cfg-path', '/tmp/tmpnbt7v59u']
+[2024-12-28T12:40:52.083+0000] {standard_task_runner.py:105} INFO - Job 133: Subtask l30_dump_pipeline
+[2024-12-28T12:40:52.189+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline.l30_dump_pipeline scheduled__2024-12-27T00:00:00+00:00 [running]> on host 0a732720d1ba
+[2024-12-28T12:40:52.368+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-27T00:00:00+00:00'
+[2024-12-28T12:40:52.376+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T12:40:52.377+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T12:40:52.379+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-28 12:40:52.015207+00:00
+[2024-12-28T12:40:52.380+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline and current dag run status:running
+[2024-12-28T12:40:52.382+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T12:41:03.781+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7fbafde6ba30>
+[2024-12-28T12:41:03.783+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-28T12:41:07.081+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-28T12:41:07.083+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 33255)
+[2024-12-28T12:41:10.066+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-28T12:41:10.068+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T12:41:11.077+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T12:41:11.079+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T12:41:11.109+0000] {logging_mixin.py:190} INFO - Successfully appended 0 rows to historical_stock_data
+[2024-12-28T12:54:54.979+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T12:54:59.977+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T12:54:59.980+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T12:55:00.020+0000] {logging_mixin.py:190} INFO - Successfully appended 63 rows to historical_stock_data
+[2024-12-28T12:55:14.312+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T12:55:14.943+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T12:55:14.946+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T12:55:14.957+0000] {logging_mixin.py:190} INFO - Successfully appended 63 rows to historical_stock_data
+[2024-12-28T12:56:06.348+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-28T12:56:07.010+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T12:56:07.013+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T12:56:07.023+0000] {logging_mixin.py:190} INFO - Successfully appended 63 rows to historical_stock_data
+[2024-12-28T12:57:54.138+0000] {job.py:229} INFO - Heartbeat recovered after 22.61 seconds
+[2024-12-28T12:58:18.454+0000] {job.py:229} INFO - Heartbeat recovered after 24.32 seconds
+[2024-12-28T12:59:22.386+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 15, in l30d_data_dump_pipeline
+    spark_l30d(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 284, in spark_l30d
+    # query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = ec9ff124-743d-4180-be45-56dcb11a2ea4, runId = 38f2172c-b461-4ce5-bad8-521a75727370] terminated with exception: Failed to create new KafkaAdminClient
+[2024-12-28T12:59:22.634+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-28T12:59:22.635+0000] {logging_mixin.py:190} INFO - Task start:2024-12-28 12:40:52.015207+00:00 end:2024-12-28 12:59:22.623474+00:00 duration:1110.608267
+[2024-12-28T12:59:22.639+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): l30_dump_pipeline> dag:<DAG: l30d_dump_pipeline> dagrun:<DagRun l30d_dump_pipeline @ 2024-12-27 00:00:00+00:00: scheduled__2024-12-27T00:00:00+00:00, state:running, queued_at: 2024-12-28 12:40:30.280699+00:00. externally triggered: False>
+[2024-12-28T12:59:22.644+0000] {logging_mixin.py:190} INFO - Failure caused by [STREAM_FAILED] Query [id = ec9ff124-743d-4180-be45-56dcb11a2ea4, runId = 38f2172c-b461-4ce5-bad8-521a75727370] terminated with exception: Failed to create new KafkaAdminClient
+[2024-12-28T12:59:22.650+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=l30d_dump_pipeline, task_id=l30_dump_pipeline, run_id=scheduled__2024-12-27T00:00:00+00:00, execution_date=20241227T000000, start_date=20241228T124052, end_date=20241228T125922
+[2024-12-28T12:59:22.759+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T12:59:22.768+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 133 for task l30_dump_pipeline ([STREAM_FAILED] Query [id = ec9ff124-743d-4180-be45-56dcb11a2ea4, runId = 38f2172c-b461-4ce5-bad8-521a75727370] terminated with exception: Failed to create new KafkaAdminClient; 24141)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/pipeline/pipeline.py", line 15, in l30d_data_dump_pipeline
+    spark_l30d(topic, BROKER)
+  File "/opt/airflow/etl/data_dump_v2.py", line 284, in spark_l30d
+    # query.awaitTermination()
+  File "/opt/spark/python/pyspark/sql/streaming/query.py", line 221, in awaitTermination
+    return self._jsq.awaitTermination()
+  File "/home/airflow/.local/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/opt/spark/python/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.StreamingQueryException: [STREAM_FAILED] Query [id = ec9ff124-743d-4180-be45-56dcb11a2ea4, runId = 38f2172c-b461-4ce5-bad8-521a75727370] terminated with exception: Failed to create new KafkaAdminClient
+[2024-12-28T12:59:22.816+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-28T12:59:22.905+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-28T12:59:22.908+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

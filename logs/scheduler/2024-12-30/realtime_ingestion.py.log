@@ -1,0 +1,14 @@
+[2024-12-30T16:44:30.205+0000] {processor.py:186} INFO - Started process (PID=32843) to work on /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:44:30.212+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_ingestion.py for tasks to queue
+[2024-12-30T16:44:30.220+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:30.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:44:36.974+0000] {processor.py:925} INFO - DAG(s) 'realtime_pipeline' retrieved from /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:44:37.060+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:37.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:44:37.140+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:37.139+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_pipeline to 2024-12-30 09:00:00+00:00, run_after=2024-12-31 09:00:00+00:00
+[2024-12-30T16:44:37.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_ingestion.py took 7.025 seconds
+[2024-12-30T16:45:07.864+0000] {processor.py:186} INFO - Started process (PID=32915) to work on /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:45:07.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_ingestion.py for tasks to queue
+[2024-12-30T16:45:07.902+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:07.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:45:11.476+0000] {processor.py:925} INFO - DAG(s) 'realtime_pipeline' retrieved from /opt/airflow/dags/realtime_ingestion.py
+[2024-12-30T16:45:11.568+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:11.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:45:11.660+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:11.659+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_pipeline to 2024-12-30 09:00:00+00:00, run_after=2024-12-31 09:00:00+00:00
+[2024-12-30T16:45:11.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_ingestion.py took 4.006 seconds

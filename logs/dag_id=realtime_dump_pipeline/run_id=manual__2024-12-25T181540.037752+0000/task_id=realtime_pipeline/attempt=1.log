@@ -1,0 +1,35 @@
+[2024-12-25T18:15:44.039+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-25T18:15:44.069+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T18:15:40.037752+00:00 [queued]>
+[2024-12-25T18:15:44.085+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T18:15:40.037752+00:00 [queued]>
+[2024-12-25T18:15:44.088+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-25T18:15:44.113+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-25 18:15:40.037752+00:00
+[2024-12-25T18:15:44.129+0000] {standard_task_runner.py:72} INFO - Started process 2903 to run task
+[2024-12-25T18:15:44.135+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-25T18:15:40.037752+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/data_dump_realtime.py', '--cfg-path', '/tmp/tmpo6qumgx4']
+[2024-12-25T18:15:44.139+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask realtime_pipeline
+[2024-12-25T18:15:44.214+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T18:15:40.037752+00:00 [running]> on host 8e07e13977c9
+[2024-12-25T18:15:44.353+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-25T18:15:40.037752+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-25T18:15:40.037752+00:00'
+[2024-12-25T18:15:44.359+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-25T18:15:44.363+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-25T18:15:44.366+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-25 18:15:44.072113+00:00
+[2024-12-25T18:15:44.369+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-25T18:15:44.372+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-25T18:15:50.053+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7fe98dedc940>
+[2024-12-25T18:15:50.055+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-25T18:15:52.032+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-25T18:15:52.485+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-25T18:15:52.489+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 41233)
+[2024-12-25T18:15:56.748+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-25T18:15:56.751+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-25T18:16:00.172+0000] {warnings.py:109} WARNING - /opt/***/etl/data_dump_v2.py:88: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  pandas_df.to_sql(
+
+[2024-12-25T18:16:00.176+0000] {logging_mixin.py:190} INFO - Error writing batch 0: 'Engine' object has no attribute 'cursor'
+[2024-12-25T18:17:10.086+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-25T18:17:10.088+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-25T18:17:10.092+0000] {process_utils.py:132} INFO - Sending 15 to group 2903. PIDs of all processes in the group: [2905, 2903]
+[2024-12-25T18:17:10.094+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 2903
+[2024-12-25T18:17:10.097+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-25T18:17:10.136+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-12-25T18:17:10.139+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-25T18:17:10.190+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=2903, status='terminated', exitcode=0, started='18:15:43') (2903) terminated with exit code 0
+[2024-12-25T18:17:10.649+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=2905, status='terminated', started='18:15:43') (2905) terminated with exit code None

@@ -1,0 +1,26 @@
+[2024-12-25T19:46:28.300+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-25T19:46:28.319+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T19:46:25.846732+00:00 [queued]>
+[2024-12-25T19:46:28.332+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T19:46:25.846732+00:00 [queued]>
+[2024-12-25T19:46:28.334+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-25T19:46:28.350+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-25 19:46:25.846732+00:00
+[2024-12-25T19:46:28.361+0000] {standard_task_runner.py:72} INFO - Started process 1582 to run task
+[2024-12-25T19:46:28.367+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-25T19:46:25.846732+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/data_dump_realtime.py', '--cfg-path', '/tmp/tmp1sdg8np7']
+[2024-12-25T19:46:28.371+0000] {standard_task_runner.py:105} INFO - Job 35: Subtask realtime_pipeline
+[2024-12-25T19:46:28.431+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-25T19:46:25.846732+00:00 [running]> on host 08315e0f24b4
+[2024-12-25T19:46:28.519+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-25T19:46:25.846732+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-25T19:46:25.846732+00:00'
+[2024-12-25T19:46:28.523+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-25T19:46:28.525+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-25T19:46:28.528+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-25 19:46:28.321728+00:00
+[2024-12-25T19:46:28.529+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-25T19:46:28.531+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-25T19:46:32.762+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f2c68dacd30>
+[2024-12-25T19:46:32.764+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-25T19:46:34.020+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-25T19:46:34.270+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-25T19:46:34.273+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 46133)
+[2024-12-25T19:46:36.106+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-25T19:46:36.109+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-25T19:46:38.187+0000] {warnings.py:109} WARNING - /opt/***/etl/data_dump_v2.py:119: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  pandas_df.to_sql(
+
+[2024-12-25T19:46:38.191+0000] {logging_mixin.py:190} INFO - Error writing batch 0: 'Engine' object has no attribute 'cursor'

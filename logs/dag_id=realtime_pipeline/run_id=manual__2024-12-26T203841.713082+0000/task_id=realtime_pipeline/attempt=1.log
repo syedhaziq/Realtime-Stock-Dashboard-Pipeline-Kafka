@@ -1,0 +1,185 @@
+[2024-12-26T20:38:44.491+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T20:38:44.571+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_pipeline.realtime_pipeline manual__2024-12-26T20:38:41.713082+00:00 [queued]>
+[2024-12-26T20:38:44.585+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_pipeline.realtime_pipeline manual__2024-12-26T20:38:41.713082+00:00 [queued]>
+[2024-12-26T20:38:44.588+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T20:38:44.608+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-26 20:38:41.713082+00:00
+[2024-12-26T20:38:44.619+0000] {standard_task_runner.py:72} INFO - Started process 7003 to run task
+[2024-12-26T20:38:44.631+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_pipeline', 'realtime_pipeline', 'manual__2024-12-26T20:38:41.713082+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/realtime_ingestion.py', '--cfg-path', '/tmp/tmp9lz97_y6']
+[2024-12-26T20:38:44.637+0000] {standard_task_runner.py:105} INFO - Job 99: Subtask realtime_pipeline
+[2024-12-26T20:38:44.808+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_pipeline.realtime_pipeline manual__2024-12-26T20:38:41.713082+00:00 [running]> on host c36613fa3dab
+[2024-12-26T20:38:44.939+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-26T20:38:41.713082+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-26T20:38:41.713082+00:00'
+[2024-12-26T20:38:44.944+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-26T20:38:44.946+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-26T20:38:44.947+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-26 20:38:44.573489+00:00
+[2024-12-26T20:38:44.948+0000] {logging_mixin.py:190} INFO - Dag name:realtime_pipeline and current dag run status:running
+[2024-12-26T20:38:44.949+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T20:38:44.958+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T20:38:44.959+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T20:38:44.962+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T20:38:45.071+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T20:38:45.072+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T20:38:45.079+0000] {data_ingestion.py:73} INFO - Producer has been created successfully
+[2024-12-26T20:38:45.083+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T20:38:45.084+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T20:38:45.086+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T20:38:45.189+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T20:38:45.190+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T20:38:45.191+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T20:38:45.294+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T20:38:45.296+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T20:38:45.300+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T20:38:45.302+0000] {conn.py:1205} INFO - Probing node 1 broker version
+[2024-12-26T20:38:45.304+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T20:38:45.305+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-26T20:38:45.408+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T20:38:45.410+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T20:38:45.624+0000] {data_ingestion.py:103} INFO - The topic has been created successfully
+[2024-12-26T20:38:45.625+0000] {conn.py:919} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-26T20:38:51.245+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:38:51.537+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:38:51.539+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:38:51.540+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:38:51", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:38:51.541+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:38:51.541+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:38:51.594+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T20:38:51.596+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T20:38:51.597+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-26T20:38:51.605+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:38:55.228+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:38:55.229+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:38:55.231+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:38:55.232+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:38:55", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:38:55.233+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:38:55.234+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:38:55.237+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:38:58.894+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:38:58.896+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:38:58.897+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:38:58.898+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:38:58", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:38:58.899+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:38:58.900+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:38:58.903+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:02.682+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:02.684+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:02.686+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:02.687+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:02", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:02.688+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:02.689+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:02.693+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:06.593+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:06.595+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:06.597+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:06.598+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:06", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:06.599+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:06.600+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:06.603+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:10.308+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:10.310+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:10.312+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:10.313+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:10", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:10.315+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:10.316+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:10.319+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:14.007+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:14.009+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:14.010+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:14.011+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:13", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:14.012+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:14.013+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:14.017+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:17.651+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:17.653+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:17.654+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:17.655+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:17", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:17.656+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:17.657+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:17.660+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:21.283+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:21.284+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:21.285+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:21.286+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:21", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:21.287+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:21.288+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:21.291+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:25.329+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:25.331+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:25.332+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:25.333+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:25", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:25.334+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:25.334+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:25.337+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:29.133+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:29.135+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:29.136+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:29.138+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:29", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:29.139+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:29.140+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:29.143+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:32.865+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:32.866+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:32.868+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:32.869+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:32", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:32.870+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:32.871+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:32.875+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:36.548+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:36.550+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:36.551+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:36.552+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:36", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:36.553+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:36.553+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:36.556+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:40.386+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:40.388+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:40.389+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:40.390+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:40", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:40.391+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:40.392+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:40.395+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:44.081+0000] {quote.py:589} ERROR - 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/STOCK?modules=financialData%2CquoteType%2CdefaultKeyStatistics%2CassetProfile%2CsummaryDetail&corsDomain=finance.yahoo.com&formatted=false&symbol=STOCK&crumb=YZS%2FJ1ztIdC
+[2024-12-26T20:39:44.083+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2024-12-26T20:39:44.085+0000] {data_ingestion.py:28} INFO - {
+    "trailingPegRatio": null
+}
+[2024-12-26T20:39:44.085+0000] {logging_mixin.py:190} INFO - {"ticker": "stock", "timestamp": "2024-12-26 20:39:44", "open": null, "dayLow": null, "dayHigh": null, "currentPrice": null, "currency": "Unknown"}
+[2024-12-26T20:39:44.086+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7f53e4e20f70>
+[2024-12-26T20:39:44.087+0000] {logging_mixin.py:190} INFO - AAPL
+[2024-12-26T20:39:44.091+0000] {data_ingestion.py:131} INFO - data send successfully
+[2024-12-26T20:39:45.094+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-26T20:39:45.105+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T20:39:45.107+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=realtime_pipeline, task_id=realtime_pipeline, run_id=manual__2024-12-26T20:38:41.713082+00:00, execution_date=20241226T203841, start_date=20241226T203844, end_date=20241226T203945
+[2024-12-26T20:39:45.117+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-26T20:39:45.118+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-26T20:39:45.119+0000] {logging_mixin.py:190} INFO - Dag name:realtime_pipeline queued_at:2024-12-26 20:38:41.721999+00:00
+[2024-12-26T20:39:45.120+0000] {logging_mixin.py:190} INFO - Task hostname:c36613fa3dab operator:PythonOperator
+[2024-12-26T20:39:45.155+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-26T20:39:45.170+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-26T20:39:45.172+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,42 @@
+[2024-12-26T19:43:32.989+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T19:43:33.006+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-26T19:43:31.022731+00:00 [queued]>
+[2024-12-26T19:43:33.016+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-26T19:43:31.022731+00:00 [queued]>
+[2024-12-26T19:43:33.018+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T19:43:33.028+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-26 19:43:31.022731+00:00
+[2024-12-26T19:43:33.035+0000] {standard_task_runner.py:72} INFO - Started process 3899 to run task
+[2024-12-26T19:43:33.038+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_dump_pipeline', 'realtime_pipeline', 'manual__2024-12-26T19:43:31.022731+00:00', '--job-id', '87', '--raw', '--subdir', 'DAGS_FOLDER/data_dump_realtime.py', '--cfg-path', '/tmp/tmp_fvkzy9b']
+[2024-12-26T19:43:33.040+0000] {standard_task_runner.py:105} INFO - Job 87: Subtask realtime_pipeline
+[2024-12-26T19:43:33.078+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_dump_pipeline.realtime_pipeline manual__2024-12-26T19:43:31.022731+00:00 [running]> on host c36613fa3dab
+[2024-12-26T19:43:33.141+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_dump_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-26T19:43:31.022731+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-26T19:43:31.022731+00:00'
+[2024-12-26T19:43:33.144+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-26T19:43:33.145+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-26T19:43:33.146+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-26 19:43:33.008309+00:00
+[2024-12-26T19:43:33.147+0000] {logging_mixin.py:190} INFO - Dag name:realtime_dump_pipeline and current dag run status:running
+[2024-12-26T19:43:33.147+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T19:43:36.354+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f53e4e74880>
+[2024-12-26T19:43:36.356+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-26T19:43:37.290+0000] {logging_mixin.py:190} INFO - Reading from topic stock
+[2024-12-26T19:43:37.503+0000] {java_gateway.py:2273} INFO - Callback Server Starting
+[2024-12-26T19:43:37.505+0000] {java_gateway.py:2275} INFO - Socket listening on ('127.0.0.1', 40593)
+[2024-12-26T19:43:38.846+0000] {clientserver.py:561} INFO - Python Server ready to receive messages
+[2024-12-26T19:43:38.848+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T19:43:40.347+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-26T19:43:40.355+0000] {logging_mixin.py:190} INFO - Successfully appended 6 rows to stock_prices
+[2024-12-26T19:44:30.566+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T19:44:31.167+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-26T19:44:31.172+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-26T19:44:41.092+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T19:44:41.684+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-26T19:44:41.687+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-26T19:44:51.488+0000] {clientserver.py:575} INFO - Received command c on object id p0
+[2024-12-26T19:44:52.069+0000] {logging_mixin.py:190} INFO - Table stock_prices already exists
+[2024-12-26T19:44:52.074+0000] {logging_mixin.py:190} INFO - Successfully appended 1 rows to stock_prices
+[2024-12-26T19:44:53.793+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2024-12-26T19:44:53.795+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-26T19:44:53.797+0000] {process_utils.py:132} INFO - Sending 15 to group 3899. PIDs of all processes in the group: [3901, 3899]
+[2024-12-26T19:44:53.798+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 3899
+[2024-12-26T19:44:53.799+0000] {taskinstance.py:3093} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-12-26T19:44:53.818+0000] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-12-26T19:44:53.819+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T19:44:54.212+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=3901, status='terminated', started='19:43:32') (3901) terminated with exit code None
+[2024-12-26T19:44:54.214+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=3899, status='terminated', exitcode=0, started='19:43:32') (3899) terminated with exit code 0

@@ -1,0 +1,46 @@
+[2024-12-28T16:47:44.593+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-28T16:47:44.607+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T16:47:42.596602+00:00 [queued]>
+[2024-12-28T16:47:44.615+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T16:47:42.596602+00:00 [queued]>
+[2024-12-28T16:47:44.617+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-28T16:47:44.628+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): l30_dump_pipeline> on 2024-12-28 16:47:42.596602+00:00
+[2024-12-28T16:47:44.635+0000] {standard_task_runner.py:72} INFO - Started process 14975 to run task
+[2024-12-28T16:47:44.638+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'l30d_dump_pipeline', 'l30_dump_pipeline', 'manual__2024-12-28T16:47:42.596602+00:00', '--job-id', '395', '--raw', '--subdir', 'DAGS_FOLDER/L30D_data_dump.py', '--cfg-path', '/tmp/tmpzmjh4owe']
+[2024-12-28T16:47:44.639+0000] {standard_task_runner.py:105} INFO - Job 395: Subtask l30_dump_pipeline
+[2024-12-28T16:47:44.677+0000] {task_command.py:467} INFO - Running <TaskInstance: l30d_dump_pipeline.l30_dump_pipeline manual__2024-12-28T16:47:42.596602+00:00 [running]> on host 24435936fa97
+[2024-12-28T16:47:44.739+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='l30d_dump_pipeline' AIRFLOW_CTX_TASK_ID='l30_dump_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-28T16:47:42.596602+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-28T16:47:42.596602+00:00'
+[2024-12-28T16:47:44.741+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-28T16:47:44.742+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-28T16:47:44.743+0000] {logging_mixin.py:190} INFO - Current task name:l30_dump_pipeline state:running start_date:2024-12-28 16:47:44.609224+00:00
+[2024-12-28T16:47:44.743+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline and current dag run status:running
+[2024-12-28T16:47:44.744+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-28T16:47:48.226+0000] {logging_mixin.py:190} INFO - <pyspark.sql.session.SparkSession object at 0x7f631bf70670>
+[2024-12-28T16:47:48.227+0000] {logging_mixin.py:190} INFO - Spark session created successfully
+[2024-12-28T16:47:48.232+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T16:47:48.233+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-28T16:47:48.234+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T16:47:48.338+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-28T16:47:48.340+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-28T16:47:48.342+0000] {consumer.py:118} WARNING - group_id is None: disabling auto-commit.
+[2024-12-28T16:47:48.344+0000] {subscription_state.py:171} INFO - Updating subscribed topics to: ('L30d',)
+[2024-12-28T16:47:48.346+0000] {subscription_state.py:257} INFO - Updated partition assignment: [('L30d', 0)]
+[2024-12-28T16:47:48.347+0000] {logging_mixin.py:190} INFO - Partitions for topic L30d: {0}
+[2024-12-28T16:47:48.347+0000] {logging_mixin.py:190} INFO - hello [TopicPartition(topic='L30d', partition=0)]
+[2024-12-28T16:47:48.349+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-28T16:47:48.350+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-28T16:47:48.351+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-28T16:47:48.453+0000] {logging_mixin.py:190} INFO - Last offset for partition 0: 190
+[2024-12-28T16:47:48.454+0000] {logging_mixin.py:190} INFO - final list is {'L30d': {0: 190}}
+[2024-12-28T16:47:53.202+0000] {logging_mixin.py:190} INFO - True
+[2024-12-28T16:47:53.203+0000] {logging_mixin.py:190} INFO - Table historical_stock_data already exists
+[2024-12-28T16:47:53.227+0000] {logging_mixin.py:190} INFO - Successfully appended 0 rows to historical_stock_data
+[2024-12-28T16:47:53.228+0000] {logging_mixin.py:190} INFO - Batch process completed.
+[2024-12-28T16:47:53.230+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-28T16:47:53.241+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-28T16:47:53.242+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=l30d_dump_pipeline, task_id=l30_dump_pipeline, run_id=manual__2024-12-28T16:47:42.596602+00:00, execution_date=20241228T164742, start_date=20241228T164744, end_date=20241228T164753
+[2024-12-28T16:47:53.254+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-28T16:47:53.256+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-28T16:47:53.257+0000] {logging_mixin.py:190} INFO - Dag name:l30d_dump_pipeline queued_at:2024-12-28 16:47:42.606524+00:00
+[2024-12-28T16:47:53.258+0000] {logging_mixin.py:190} INFO - Task hostname:24435936fa97 operator:PythonOperator
+[2024-12-28T16:47:53.278+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-28T16:47:53.293+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-28T16:47:53.296+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

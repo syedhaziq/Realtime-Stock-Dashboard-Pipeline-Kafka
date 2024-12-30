@@ -1,0 +1,1377 @@
+2024-12-21 21:00:02,817 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:02,817 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:02,818 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:02,925 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:02,926 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:02,928 - INFO - Producer has been created successfully
+2024-12-21 21:00:02,931 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:02,931 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:02,932 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:03,048 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:03,048 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:03,048 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:03,157 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:03,157 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:03,161 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:03,161 - INFO - Probing node 1 broker version
+2024-12-21 21:00:03,162 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:03,162 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:03,268 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:03,269 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:03,271 - INFO - The topic already exist!!!
+2024-12-21 21:00:03,271 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:05,279 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:00:05,279 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:00:05,294 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:05,294 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:05,294 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:05,302 - INFO - data send successfully
+2024-12-21 21:00:15,310 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:00:15,310 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:00:44,689 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:44,689 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:44,689 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:44,799 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:44,799 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:44,801 - INFO - Producer has been created successfully
+2024-12-21 21:00:44,803 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:44,804 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:44,804 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:44,909 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:44,909 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:44,909 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:00:45,017 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:45,017 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:45,019 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:45,020 - INFO - Probing node 1 broker version
+2024-12-21 21:00:45,020 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:45,020 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:45,124 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:00:45,124 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:00:45,126 - INFO - The topic already exist!!!
+2024-12-21 21:00:45,126 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:47,010 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:00:47,010 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:00:47,022 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:00:47,022 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:00:47,022 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:00:47,027 - INFO - data send successfully
+2024-12-21 21:00:57,039 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:00:57,040 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:01:22,138 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:22,138 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:22,139 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:22,247 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:22,247 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:22,250 - INFO - Producer has been created successfully
+2024-12-21 21:01:22,252 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:22,253 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:22,253 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:22,356 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:22,356 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:22,356 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:22,465 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:22,466 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:22,469 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:22,469 - INFO - Probing node 1 broker version
+2024-12-21 21:01:22,470 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:22,470 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:22,573 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:22,573 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:22,574 - INFO - The topic already exist!!!
+2024-12-21 21:01:22,575 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:24,717 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:01:24,717 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:01:24,728 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:24,729 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:24,729 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:24,735 - INFO - data send successfully
+2024-12-21 21:01:34,738 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:01:34,738 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:01:46,790 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:46,791 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:46,791 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:46,892 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:46,892 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:46,895 - INFO - Producer has been created successfully
+2024-12-21 21:01:46,896 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:46,897 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:46,897 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:47,001 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:47,002 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:47,002 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:01:47,111 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:47,111 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:47,114 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:47,115 - INFO - Probing node 1 broker version
+2024-12-21 21:01:47,115 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:47,115 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:47,219 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:01:47,220 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:01:47,221 - INFO - The topic already exist!!!
+2024-12-21 21:01:47,221 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:49,087 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:01:49,087 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:01:49,102 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:01:49,103 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:01:49,103 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:01:49,110 - INFO - data send successfully
+2024-12-21 21:01:59,111 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:01:59,111 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:04:18,587 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:04:18,587 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:04:18,588 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:04:18,700 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:04:18,700 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:04:18,703 - INFO - Producer has been created successfully
+2024-12-21 21:04:18,704 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:04:18,705 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:04:18,705 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:04:18,808 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:04:18,808 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:04:18,808 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:04:18,917 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:04:18,917 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:04:18,920 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:04:18,921 - INFO - Probing node 1 broker version
+2024-12-21 21:04:18,921 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:04:18,921 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:04:19,027 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:04:19,027 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:04:19,028 - INFO - The topic already exist!!!
+2024-12-21 21:04:19,029 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:04:20,936 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:04:20,936 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:04:20,949 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:04:20,950 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:04:20,950 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:04:20,955 - INFO - data send successfully
+2024-12-21 21:04:30,963 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:04:30,963 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:06:35,423 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:06:35,424 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:06:35,424 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:06:35,534 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:06:35,534 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:06:35,536 - INFO - Producer has been created successfully
+2024-12-21 21:06:35,538 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:06:35,538 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:06:35,539 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:06:35,644 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:06:35,644 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:06:35,644 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:06:35,754 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:06:35,754 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:06:35,758 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:06:35,758 - INFO - Probing node 1 broker version
+2024-12-21 21:06:35,759 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:06:35,759 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:06:35,863 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:06:35,863 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:06:35,864 - INFO - The topic already exist!!!
+2024-12-21 21:06:35,865 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:06:37,995 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:06:37,995 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:06:38,008 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:06:38,008 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:06:38,008 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:06:38,015 - INFO - data send successfully
+2024-12-21 21:06:48,019 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:06:48,019 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:11:09,949 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:11:09,949 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:11:09,950 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:11:10,051 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:11:10,051 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:11:10,054 - INFO - Producer has been created successfully
+2024-12-21 21:11:10,055 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:11:10,056 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:11:10,056 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:11:10,161 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:11:10,161 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:11:10,161 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:11:10,272 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:11:10,272 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:11:10,275 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:11:10,275 - INFO - Probing node 1 broker version
+2024-12-21 21:11:10,276 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:11:10,276 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:11:10,382 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:11:10,382 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:11:10,384 - INFO - The topic already exist!!!
+2024-12-21 21:11:10,384 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:11:12,402 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:11:12,402 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:11:12,415 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:11:12,416 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:11:12,416 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:11:12,423 - INFO - data send successfully
+2024-12-21 21:11:22,438 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:11:22,438 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:14:36,277 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:36,277 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:36,278 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:36,383 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:36,383 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:36,386 - INFO - Producer has been created successfully
+2024-12-21 21:14:36,388 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:36,388 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:36,389 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:36,492 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:36,492 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:36,493 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:36,599 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:36,599 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:36,603 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:36,604 - INFO - Probing node 1 broker version
+2024-12-21 21:14:36,605 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:36,606 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:36,722 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:36,722 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:36,724 - INFO - The topic already exist!!!
+2024-12-21 21:14:36,724 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:38,656 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:14:38,656 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:14:38,665 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:38,665 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:38,665 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:38,671 - INFO - data send successfully
+2024-12-21 21:14:48,675 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:14:48,675 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:14:55,561 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:55,561 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:55,562 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:55,665 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:55,666 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:55,668 - INFO - Producer has been created successfully
+2024-12-21 21:14:55,669 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:55,669 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:55,670 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:55,773 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:55,773 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:55,773 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:14:55,882 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:55,882 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:55,885 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:55,885 - INFO - Probing node 1 broker version
+2024-12-21 21:14:55,886 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:55,886 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:55,993 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:14:55,993 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:14:55,994 - INFO - The topic already exist!!!
+2024-12-21 21:14:55,995 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:57,841 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:14:57,841 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:14:57,851 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:14:57,852 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:14:57,852 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:14:57,858 - INFO - data send successfully
+2024-12-21 21:15:07,870 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:15:07,871 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:16:08,071 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:16:08,071 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:16:08,072 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:16:08,185 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:16:08,186 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:16:08,189 - INFO - Producer has been created successfully
+2024-12-21 21:16:08,192 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:16:08,193 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:16:08,193 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:16:08,309 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:16:08,309 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:16:08,309 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:16:08,417 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:16:08,417 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:16:08,421 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:16:08,422 - INFO - Probing node 1 broker version
+2024-12-21 21:16:08,422 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:16:08,422 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:16:08,525 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:16:08,525 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:16:08,526 - INFO - The topic already exist!!!
+2024-12-21 21:16:08,526 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:16:10,400 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:16:10,400 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:16:10,408 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:16:10,408 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:16:10,408 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:16:10,414 - INFO - data send successfully
+2024-12-21 21:16:20,417 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:16:20,417 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:19:43,457 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:19:43,458 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:19:43,458 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:19:43,575 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:19:43,575 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:19:43,577 - INFO - Producer has been created successfully
+2024-12-21 21:19:43,579 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:19:43,579 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:19:43,580 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:19:43,683 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:19:43,684 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:19:43,684 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:19:43,791 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:19:43,791 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:19:43,794 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:19:43,795 - INFO - Probing node 1 broker version
+2024-12-21 21:19:43,795 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:19:43,795 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:19:43,900 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:19:43,900 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:19:43,901 - INFO - The topic already exist!!!
+2024-12-21 21:19:43,901 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:19:45,927 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:19:45,928 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:19:45,938 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:19:45,939 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:19:45,939 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:19:45,947 - INFO - data send successfully
+2024-12-21 21:19:55,953 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:19:55,953 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:21:26,982 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:21:26,983 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:21:26,983 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:21:27,090 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:21:27,090 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:21:27,092 - INFO - Producer has been created successfully
+2024-12-21 21:21:27,094 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:21:27,094 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:21:27,095 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:21:27,198 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:21:27,198 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:21:27,198 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:21:27,307 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:21:27,307 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:21:27,310 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:21:27,310 - INFO - Probing node 1 broker version
+2024-12-21 21:21:27,310 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:21:27,311 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:21:27,415 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:21:27,415 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:21:27,417 - INFO - The topic already exist!!!
+2024-12-21 21:21:27,417 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:21:29,559 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:21:29,559 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:21:29,568 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:21:29,569 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:21:29,569 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:21:29,575 - INFO - data send successfully
+2024-12-21 21:21:39,580 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:21:39,580 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:21:39,581 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:28:12,315 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:28:12,316 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:28:12,316 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:28:12,429 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:28:12,429 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:28:12,432 - INFO - Producer has been created successfully
+2024-12-21 21:28:12,434 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:28:12,434 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:28:12,434 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:28:12,539 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:28:12,539 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:28:12,539 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:28:12,648 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:28:12,648 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:28:12,650 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:28:12,651 - INFO - Probing node 1 broker version
+2024-12-21 21:28:12,651 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:28:12,651 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:28:12,756 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:28:12,756 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:28:12,758 - INFO - The topic already exist!!!
+2024-12-21 21:28:12,758 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:28:14,707 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:28:14,707 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:28:14,724 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:28:14,725 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:28:14,725 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:28:14,732 - INFO - data send successfully
+2024-12-21 21:28:24,749 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:28:24,749 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:31:54,709 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:31:54,710 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:31:54,710 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:31:54,816 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:31:54,816 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:31:54,819 - INFO - Producer has been created successfully
+2024-12-21 21:31:54,821 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:31:54,821 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:31:54,821 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:31:54,925 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:31:54,925 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:31:54,925 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:31:55,035 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:31:55,036 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:31:55,039 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:31:55,039 - INFO - Probing node 1 broker version
+2024-12-21 21:31:55,040 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:31:55,040 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:31:55,145 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:31:55,146 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:31:55,147 - INFO - The topic already exist!!!
+2024-12-21 21:31:55,147 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:31:57,021 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:31:57,021 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:31:57,037 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:31:57,037 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:31:57,038 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:31:57,044 - INFO - data send successfully
+2024-12-21 21:32:07,051 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:32:07,051 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:32:41,309 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:32:41,310 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:32:41,311 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:32:41,424 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:32:41,424 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:32:41,427 - INFO - Producer has been created successfully
+2024-12-21 21:32:41,429 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:32:41,429 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:32:41,430 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:32:41,545 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:32:41,545 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:32:41,545 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:32:41,655 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:32:41,655 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:32:41,659 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:32:41,659 - INFO - Probing node 1 broker version
+2024-12-21 21:32:41,660 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:32:41,660 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:32:41,763 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:32:41,763 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:32:41,765 - INFO - The topic already exist!!!
+2024-12-21 21:32:41,765 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:32:43,735 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:32:43,735 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:32:43,750 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:32:43,751 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:32:43,751 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:32:43,756 - INFO - data send successfully
+2024-12-21 21:32:53,758 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:32:53,758 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-21 21:37:00,557 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:37:00,558 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:37:00,558 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:37:00,672 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:37:00,672 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:37:00,675 - INFO - Producer has been created successfully
+2024-12-21 21:37:00,677 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:37:00,677 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:37:00,678 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:37:00,781 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:37:00,781 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:37:00,782 - INFO - Probing node bootstrap-0 broker version
+2024-12-21 21:37:00,889 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:37:00,890 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:37:00,894 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:37:00,895 - INFO - Probing node 1 broker version
+2024-12-21 21:37:00,895 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:37:00,895 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:37:00,998 - INFO - Broker version identified as 2.5.0
+2024-12-21 21:37:00,998 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-21 21:37:01,000 - INFO - The topic already exist!!!
+2024-12-21 21:37:01,000 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:37:03,020 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-21 21:37:03,020 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-21 21:37:03,031 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-21 21:37:03,032 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-21 21:37:03,032 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-21 21:37:03,038 - INFO - data send successfully
+2024-12-21 21:37:13,049 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-21 21:37:13,050 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:08:13,862 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:08:13,863 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:08:13,864 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:08:13,975 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:08:13,975 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:08:13,978 - INFO - Producer has been created successfully
+2024-12-22 01:08:13,980 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:08:13,980 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:08:13,980 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:08:14,084 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:08:14,084 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:08:14,085 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:08:14,193 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:08:14,193 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:08:14,197 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:08:14,197 - INFO - Probing node 1 broker version
+2024-12-22 01:08:14,198 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:08:14,198 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:08:14,302 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:08:14,302 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:08:14,303 - INFO - The topic already exist!!!
+2024-12-22 01:08:14,304 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:08:17,611 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:08:17,611 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:08:17,624 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:08:17,625 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:08:17,625 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:08:17,636 - INFO - data send successfully
+2024-12-22 01:08:27,637 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:08:27,637 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:09:42,014 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:09:42,015 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:09:42,017 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:09:42,126 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:09:42,126 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:09:42,131 - INFO - Producer has been created successfully
+2024-12-22 01:09:42,134 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:09:42,135 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:09:42,136 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:09:42,249 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:09:42,249 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:09:42,249 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:09:42,358 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:09:42,358 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:09:42,363 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:09:42,364 - INFO - Probing node 1 broker version
+2024-12-22 01:09:42,365 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:09:42,365 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:09:42,480 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:09:42,481 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:09:42,483 - INFO - The topic already exist!!!
+2024-12-22 01:09:42,484 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:09:44,690 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:09:44,690 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:09:44,708 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:09:44,708 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:09:44,709 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:09:44,717 - INFO - data send successfully
+2024-12-22 01:09:54,719 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:09:54,719 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:10:03,443 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:10:03,444 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:10:03,444 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:10:03,556 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:10:03,556 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:10:03,558 - INFO - Producer has been created successfully
+2024-12-22 01:10:03,561 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:10:03,561 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:10:03,561 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:10:03,664 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:10:03,664 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:10:03,664 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:10:03,775 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:10:03,775 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:10:03,779 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:10:03,780 - INFO - Probing node 1 broker version
+2024-12-22 01:10:03,780 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:10:03,780 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:10:03,886 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:10:03,886 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:10:03,887 - INFO - The topic already exist!!!
+2024-12-22 01:10:03,888 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:10:05,821 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:10:05,821 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:10:05,833 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:10:05,834 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:10:05,834 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:10:05,842 - INFO - data send successfully
+2024-12-22 01:10:15,855 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:10:15,855 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:11:30,559 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:11:30,560 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:11:30,561 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:11:30,666 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:11:30,666 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:11:30,669 - INFO - Producer has been created successfully
+2024-12-22 01:11:30,671 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:11:30,671 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:11:30,672 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:11:30,774 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:11:30,775 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:11:30,775 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:11:30,884 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:11:30,884 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:11:30,889 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:11:30,890 - INFO - Probing node 1 broker version
+2024-12-22 01:11:30,890 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:11:30,890 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:11:31,008 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:11:31,008 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:11:31,009 - INFO - The topic already exist!!!
+2024-12-22 01:11:31,010 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:11:33,126 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:11:33,126 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:11:33,140 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:11:33,141 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:11:33,141 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:11:33,149 - INFO - data send successfully
+2024-12-22 01:11:43,156 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:11:43,157 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:14:51,954 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:14:51,955 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:14:51,956 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:14:52,070 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:14:52,070 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:14:52,073 - INFO - Producer has been created successfully
+2024-12-22 01:14:52,075 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:14:52,076 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:14:52,076 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:14:52,193 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:14:52,193 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:14:52,193 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:14:52,302 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:14:52,302 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:14:52,310 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:14:52,310 - INFO - Probing node 1 broker version
+2024-12-22 01:14:52,312 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:14:52,312 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:14:52,426 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:14:52,426 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:14:52,429 - INFO - The topic already exist!!!
+2024-12-22 01:14:52,430 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:14:54,567 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:14:54,567 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:14:54,587 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:14:54,588 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:14:54,589 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:14:54,605 - INFO - data send successfully
+2024-12-22 01:15:04,611 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:15:04,611 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:16:00,534 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:16:00,534 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:16:00,535 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:16:00,643 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:16:00,643 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:16:00,647 - INFO - Producer has been created successfully
+2024-12-22 01:16:00,649 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:16:00,650 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:16:00,651 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:16:00,766 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:16:00,767 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:16:00,767 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:16:00,874 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:16:00,874 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:16:00,877 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:16:00,877 - INFO - Probing node 1 broker version
+2024-12-22 01:16:00,879 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:16:00,879 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:16:00,982 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:16:00,982 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:16:00,984 - INFO - The topic already exist!!!
+2024-12-22 01:16:00,984 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:16:02,982 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:16:02,982 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:16:02,995 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:16:02,995 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:16:02,995 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:16:03,002 - INFO - data send successfully
+2024-12-22 01:16:13,013 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:16:13,013 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:25:16,536 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:25:16,537 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:25:16,537 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:25:16,647 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:25:16,647 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:25:16,650 - INFO - Producer has been created successfully
+2024-12-22 01:25:16,652 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:25:16,652 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:25:16,653 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:25:16,758 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:25:16,758 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:25:16,758 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:25:16,870 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:25:16,870 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:25:16,874 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:25:16,874 - INFO - Probing node 1 broker version
+2024-12-22 01:25:16,874 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:25:16,875 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:25:16,979 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:25:16,979 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:25:16,981 - INFO - The topic already exist!!!
+2024-12-22 01:25:16,981 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:25:19,081 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:25:19,082 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:25:19,094 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:25:19,095 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:25:19,095 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:25:19,103 - INFO - data send successfully
+2024-12-22 01:25:29,109 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:25:29,109 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:29:08,744 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:29:08,744 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:29:08,745 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:29:08,847 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:29:08,847 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:29:08,851 - INFO - Producer has been created successfully
+2024-12-22 01:29:08,853 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:29:08,853 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:29:08,854 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:29:08,970 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:29:08,970 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:29:08,971 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:29:09,077 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:29:09,077 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:29:09,082 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:29:09,083 - INFO - Probing node 1 broker version
+2024-12-22 01:29:09,083 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:29:09,084 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:29:09,188 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:29:09,189 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:29:09,190 - INFO - The topic already exist!!!
+2024-12-22 01:29:09,191 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:29:11,459 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:29:11,460 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:29:11,473 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:29:11,473 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:29:11,473 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:29:11,481 - INFO - data send successfully
+2024-12-22 01:29:21,493 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:29:21,493 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:30:51,030 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:30:51,031 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:30:51,031 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:30:51,136 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:30:51,136 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:30:51,138 - INFO - Producer has been created successfully
+2024-12-22 01:30:51,141 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:30:51,141 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:30:51,142 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:30:51,247 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:30:51,248 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:30:51,248 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:30:51,358 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:30:51,358 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:30:51,361 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:30:51,361 - INFO - Probing node 1 broker version
+2024-12-22 01:30:51,362 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:30:51,362 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:30:51,466 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:30:51,466 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:30:51,467 - INFO - The topic already exist!!!
+2024-12-22 01:30:51,468 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:30:53,536 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:30:53,537 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:30:53,549 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:30:53,550 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:30:53,550 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:30:53,558 - INFO - data send successfully
+2024-12-22 01:31:03,558 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:31:03,559 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:32:17,970 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:32:17,971 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:32:17,971 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:32:18,088 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:32:18,088 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:32:18,090 - INFO - Producer has been created successfully
+2024-12-22 01:32:18,092 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:32:18,093 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:32:18,093 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:32:18,199 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:32:18,199 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:32:18,199 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:32:18,307 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:32:18,308 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:32:18,311 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:32:18,312 - INFO - Probing node 1 broker version
+2024-12-22 01:32:18,313 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:32:18,313 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:32:18,417 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:32:18,417 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:32:18,419 - INFO - The topic already exist!!!
+2024-12-22 01:32:18,420 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:32:20,274 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:32:20,275 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:32:20,285 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:32:20,286 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:32:20,286 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:32:20,293 - INFO - data send successfully
+2024-12-22 01:32:30,300 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:32:30,300 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:38:27,333 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:38:27,334 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:38:27,335 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:38:27,451 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:38:27,451 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:38:27,454 - INFO - Producer has been created successfully
+2024-12-22 01:38:27,456 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:38:27,457 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:38:27,457 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:38:27,561 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:38:27,561 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:38:27,561 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:38:27,673 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:38:27,673 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:38:27,676 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:38:27,677 - INFO - Probing node 1 broker version
+2024-12-22 01:38:27,678 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:38:27,678 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:38:27,783 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:38:27,783 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:38:27,785 - INFO - The topic already exist!!!
+2024-12-22 01:38:27,786 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:38:29,973 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:38:29,973 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:38:29,984 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:38:29,984 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:38:29,984 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:38:29,991 - INFO - data send successfully
+2024-12-22 01:38:40,000 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:38:40,000 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:40:54,003 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:40:54,003 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:40:54,004 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:40:54,108 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:40:54,108 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:40:54,111 - INFO - Producer has been created successfully
+2024-12-22 01:40:54,113 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:40:54,114 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:40:54,114 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:40:54,220 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:40:54,220 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:40:54,220 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:40:54,331 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:40:54,331 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:40:54,336 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:40:54,337 - INFO - Probing node 1 broker version
+2024-12-22 01:40:54,338 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:40:54,338 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:40:54,440 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:40:54,440 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:40:54,441 - INFO - The topic already exist!!!
+2024-12-22 01:40:54,442 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:40:56,466 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:40:56,466 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:40:56,479 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:40:56,479 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:40:56,479 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:40:56,486 - INFO - data send successfully
+2024-12-22 01:41:06,490 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:41:06,490 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:43:08,015 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:43:08,016 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:43:08,016 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:43:08,120 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:43:08,120 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:43:08,122 - INFO - Producer has been created successfully
+2024-12-22 01:43:08,124 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:43:08,124 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:43:08,124 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:43:08,229 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:43:08,230 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:43:08,230 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:43:08,340 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:43:08,341 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:43:08,344 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:43:08,344 - INFO - Probing node 1 broker version
+2024-12-22 01:43:08,345 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:43:08,345 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:43:08,451 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:43:08,452 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:43:08,453 - INFO - The topic already exist!!!
+2024-12-22 01:43:08,453 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:43:11,624 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:43:11,625 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:43:11,637 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:43:11,638 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:43:11,638 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:43:11,646 - INFO - data send successfully
+2024-12-22 01:43:21,659 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:43:21,659 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:51:34,107 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:34,108 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:34,108 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:34,223 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:34,223 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:34,226 - INFO - Producer has been created successfully
+2024-12-22 01:51:34,229 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:34,229 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:34,230 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:34,332 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:34,332 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:34,332 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:34,441 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:34,441 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:34,445 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:34,445 - INFO - Probing node 1 broker version
+2024-12-22 01:51:34,446 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:34,446 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:51:34,550 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:34,550 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:34,551 - INFO - The topic already exist!!!
+2024-12-22 01:51:34,552 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:51:36,663 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:51:36,664 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:51:36,675 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:36,675 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:36,675 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:51:36,681 - INFO - data send successfully
+2024-12-22 01:51:46,686 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:51:46,686 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-22 01:51:58,990 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:58,990 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:58,991 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:59,107 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:59,107 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:59,110 - INFO - Producer has been created successfully
+2024-12-22 01:51:59,111 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:59,112 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:59,112 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:59,217 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:59,217 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:59,217 - INFO - Probing node bootstrap-0 broker version
+2024-12-22 01:51:59,326 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:59,326 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:59,330 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:51:59,330 - INFO - Probing node 1 broker version
+2024-12-22 01:51:59,331 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:51:59,331 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:51:59,437 - INFO - Broker version identified as 2.5.0
+2024-12-22 01:51:59,437 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-22 01:51:59,438 - INFO - The topic already exist!!!
+2024-12-22 01:51:59,439 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:52:01,293 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-22 01:52:01,293 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+59 2024-12-16 00:00:00-05:00  247.990005  251.039993
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+
+[64 rows x 3 columns]
+2024-12-22 01:52:01,303 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-22 01:52:01,303 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-22 01:52:01,303 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-22 01:52:01,310 - INFO - data send successfully
+2024-12-22 01:52:11,312 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-22 01:52:11,312 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2024-12-24 00:36:48,465 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-24 00:36:48,466 - INFO - Probing node bootstrap-0 broker version
+2024-12-24 00:36:48,466 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-24 00:36:48,574 - INFO - Broker version identified as 2.5.0
+2024-12-24 00:36:48,574 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-24 00:36:48,576 - INFO - Producer has been created successfully
+2024-12-24 00:36:48,578 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-24 00:36:48,579 - INFO - Probing node bootstrap-0 broker version
+2024-12-24 00:36:48,579 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-24 00:36:48,682 - INFO - Broker version identified as 2.5.0
+2024-12-24 00:36:48,682 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-24 00:36:48,682 - INFO - Probing node bootstrap-0 broker version
+2024-12-24 00:36:48,793 - INFO - Broker version identified as 2.5.0
+2024-12-24 00:36:48,793 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-24 00:36:48,798 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-24 00:36:48,799 - INFO - Probing node 1 broker version
+2024-12-24 00:36:48,799 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-24 00:36:48,799 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-24 00:36:48,903 - INFO - Broker version identified as 2.5.0
+2024-12-24 00:36:48,903 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2024-12-24 00:36:48,905 - INFO - The topic already exist!!!
+2024-12-24 00:36:48,906 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-24 00:36:54,056 - INFO - Last 30 days data has been fetched successfully for AAPL!!!
+2024-12-24 00:36:54,056 - INFO -                         Date        Open       Close
+0  2024-09-23 00:00:00-04:00  227.090154  226.221115
+1  2024-09-24 00:00:00-04:00  228.398709  227.120117
+2  2024-09-25 00:00:00-04:00  224.682796  226.121216
+3  2024-09-26 00:00:00-04:00  227.050199  227.269958
+4  2024-09-27 00:00:00-04:00  228.208935  227.539658
+..                       ...         ...         ...
+60 2024-12-17 00:00:00-05:00  250.080002  253.479996
+61 2024-12-18 00:00:00-05:00  252.160004  248.050003
+62 2024-12-19 00:00:00-05:00  247.500000  249.789993
+63 2024-12-20 00:00:00-05:00  248.039993  254.490005
+64 2024-12-23 00:00:00-05:00  254.770004  254.150101
+
+[65 rows x 3 columns]
+2024-12-24 00:36:54,068 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2024-12-24 00:36:54,069 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2024-12-24 00:36:54,069 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2024-12-24 00:36:54,132 - INFO - data send successfully
+2024-12-24 00:37:04,138 - INFO - Closing the Kafka producer with 0 secs timeout.
+2024-12-24 00:37:04,138 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.

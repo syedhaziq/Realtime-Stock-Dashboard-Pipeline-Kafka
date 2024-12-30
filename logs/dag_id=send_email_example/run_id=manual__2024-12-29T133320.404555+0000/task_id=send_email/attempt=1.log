@@ -1,0 +1,113 @@
+[2024-12-29T13:33:23.003+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-29T13:33:23.021+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: send_email_example.send_email manual__2024-12-29T13:33:20.404555+00:00 [queued]>
+[2024-12-29T13:33:23.033+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: send_email_example.send_email manual__2024-12-29T13:33:20.404555+00:00 [queued]>
+[2024-12-29T13:33:23.035+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-29T13:33:23.050+0000] {taskinstance.py:2889} INFO - Executing <Task(EmailOperator): send_email> on 2024-12-29 13:33:20.404555+00:00
+[2024-12-29T13:33:23.059+0000] {standard_task_runner.py:72} INFO - Started process 12017 to run task
+[2024-12-29T13:33:23.062+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'send_email_example', 'send_email', 'manual__2024-12-29T13:33:20.404555+00:00', '--job-id', '1110', '--raw', '--subdir', 'DAGS_FOLDER/testing.py', '--cfg-path', '/tmp/tmp7qmzynww']
+[2024-12-29T13:33:23.065+0000] {standard_task_runner.py:105} INFO - Job 1110: Subtask send_email
+[2024-12-29T13:33:23.113+0000] {task_command.py:467} INFO - Running <TaskInstance: send_email_example.send_email manual__2024-12-29T13:33:20.404555+00:00 [running]> on host 95d98a98d27d
+[2024-12-29T13:33:23.193+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='send_email_example' AIRFLOW_CTX_TASK_ID='send_email' AIRFLOW_CTX_EXECUTION_DATE='2024-12-29T13:33:20.404555+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-29T13:33:20.404555+00:00'
+[2024-12-29T13:33:23.197+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-29T13:33:23.199+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-29T13:33:23.201+0000] {logging_mixin.py:190} INFO - Current task name:send_email state:running start_date:2024-12-29 13:33:23.023127+00:00
+[2024-12-29T13:33:23.202+0000] {logging_mixin.py:190} INFO - Dag name:send_email_example and current dag run status:running
+[2024-12-29T13:33:23.205+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-29T13:33:23.220+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/email.py:155: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2024-12-29T13:33:23.221+0000] {configuration.py:1073} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-12-29T13:33:23.223+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2024-12-29T13:33:23.228+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/email.py", line 79, in execute
+    send_email(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/usr/local/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2024-12-29T13:33:23.241+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-29T13:33:23.243+0000] {logging_mixin.py:190} INFO - Task start:2024-12-29 13:33:23.023127+00:00 end:2024-12-29 13:33:23.241336+00:00 duration:0.218209
+[2024-12-29T13:33:23.245+0000] {logging_mixin.py:190} INFO - Task:<Task(EmailOperator): send_email> dag:<DAG: send_email_example> dagrun:<DagRun send_email_example @ 2024-12-29 13:33:20.404555+00:00: manual__2024-12-29T13:33:20.404555+00:00, state:running, queued_at: 2024-12-29 13:33:20.477022+00:00. externally triggered: True>
+[2024-12-29T13:33:23.247+0000] {logging_mixin.py:190} INFO - Failure caused by [Errno 111] Connection refused
+[2024-12-29T13:33:23.249+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=send_email_example, task_id=send_email, run_id=manual__2024-12-29T13:33:20.404555+00:00, execution_date=20241229T133320, start_date=20241229T133323, end_date=20241229T133323
+[2024-12-29T13:33:23.265+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-29T13:33:23.268+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 1110 for task send_email ([Errno 111] Connection refused; 12017)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/email.py", line 79, in execute
+    send_email(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/usr/local/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2024-12-29T13:33:23.316+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-29T13:33:23.338+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-29T13:33:23.342+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

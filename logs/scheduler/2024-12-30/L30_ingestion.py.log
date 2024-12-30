@@ -1,0 +1,14 @@
+[2024-12-30T16:44:37.371+0000] {processor.py:186} INFO - Started process (PID=32845) to work on /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:44:37.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/L30_ingestion.py for tasks to queue
+[2024-12-30T16:44:37.379+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:37.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:44:40.543+0000] {processor.py:925} INFO - DAG(s) 'L30d_pipeline' retrieved from /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:44:40.664+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:40.663+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:44:40.727+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:44:40.727+0000] {dag.py:4180} INFO - Setting next_dagrun for L30d_pipeline to 2024-12-30 04:00:00+00:00, run_after=2024-12-31 04:00:00+00:00
+[2024-12-30T16:44:40.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/L30_ingestion.py took 3.436 seconds
+[2024-12-30T16:45:11.796+0000] {processor.py:186} INFO - Started process (PID=32922) to work on /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:45:11.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/L30_ingestion.py for tasks to queue
+[2024-12-30T16:45:11.800+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:11.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:45:12.603+0000] {processor.py:925} INFO - DAG(s) 'L30d_pipeline' retrieved from /opt/airflow/dags/L30_ingestion.py
+[2024-12-30T16:45:12.626+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:12.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-30T16:45:12.663+0000] {logging_mixin.py:190} INFO - [2024-12-30T16:45:12.663+0000] {dag.py:4180} INFO - Setting next_dagrun for L30d_pipeline to 2024-12-30 04:00:00+00:00, run_after=2024-12-31 04:00:00+00:00
+[2024-12-30T16:45:12.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/L30_ingestion.py took 0.908 seconds

@@ -1,0 +1,37 @@
+[2024-12-26T18:18:49.074+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T18:18:49.115+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_pipeline.realtime_pipeline scheduled__2024-12-25T00:00:00+00:00 [queued]>
+[2024-12-26T18:18:49.212+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_pipeline.realtime_pipeline scheduled__2024-12-25T00:00:00+00:00 [queued]>
+[2024-12-26T18:18:49.248+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-26T18:18:49.330+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): realtime_pipeline> on 2024-12-25 00:00:00+00:00
+[2024-12-26T18:18:49.371+0000] {standard_task_runner.py:72} INFO - Started process 377 to run task
+[2024-12-26T18:18:49.376+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'realtime_pipeline', 'realtime_pipeline', 'scheduled__2024-12-25T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/realtime_ingestion.py', '--cfg-path', '/tmp/tmp9_41bhye']
+[2024-12-26T18:18:49.380+0000] {standard_task_runner.py:105} INFO - Job 42: Subtask realtime_pipeline
+[2024-12-26T18:18:49.462+0000] {task_command.py:467} INFO - Running <TaskInstance: realtime_pipeline.realtime_pipeline scheduled__2024-12-25T00:00:00+00:00 [running]> on host 3ef1a7d6f17f
+[2024-12-26T18:18:49.614+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='realtime_pipeline' AIRFLOW_CTX_TASK_ID='realtime_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-12-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-25T00:00:00+00:00'
+[2024-12-26T18:18:49.616+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-26T18:18:49.618+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-26T18:18:49.619+0000] {logging_mixin.py:190} INFO - Current task name:realtime_pipeline state:running start_date:2024-12-26 18:18:49.200094+00:00
+[2024-12-26T18:18:49.621+0000] {logging_mixin.py:190} INFO - Dag name:realtime_pipeline and current dag run status:running
+[2024-12-26T18:18:49.622+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T18:18:49.626+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T18:18:49.629+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T18:18:49.631+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T18:18:49.741+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T18:18:49.743+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T18:18:49.748+0000] {data_ingestion.py:73} INFO - Producer has been created successfully
+[2024-12-26T18:18:49.756+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T18:18:49.758+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T18:18:49.762+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T18:18:49.866+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T18:18:49.867+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T18:18:49.869+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-12-26T18:18:49.974+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T18:18:49.975+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T18:18:49.982+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: connecting to kafka:29092 [('172.18.0.6', 29092) IPv4]
+[2024-12-26T18:18:49.985+0000] {conn.py:1205} INFO - Probing node 1 broker version
+[2024-12-26T18:18:49.987+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connecting> [IPv4 ('172.18.0.6', 29092)]>: Connection complete.
+[2024-12-26T18:18:49.989+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
+[2024-12-26T18:18:50.093+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-12-26T18:18:50.094+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-12-26T18:18:50.443+0000] {data_ingestion.py:103} INFO - The topic has been created successfully
+[2024-12-26T18:18:50.445+0000] {conn.py:919} INFO - <BrokerConnection node_id=1 host=kafka:29092 <connected> [IPv4 ('172.18.0.6', 29092)]>: Closing connection. 
