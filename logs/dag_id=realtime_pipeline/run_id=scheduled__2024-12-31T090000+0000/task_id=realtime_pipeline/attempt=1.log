@@ -22943,3 +22943,758 @@
 [2025-01-01T19:00:27.784+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
 [2025-01-01T19:00:31.509+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
 [2025-01-01T19:00:31.511+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:35.222+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:35.224+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:38.945+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:38.947+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:42.659+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:42.660+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:46.349+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:46.351+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:50.057+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:50.058+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:53.773+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:53.775+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:00:53.776+0000] {record_accumulator.py:73} WARNING - Produced messages to topic-partition ('stock', 0) with base offset -1 log start offset None and error None.
+[2025-01-01T19:00:53.778+0000] {record_accumulator.py:332} WARNING - Expired 1 batches in accumulator
+[2025-01-01T19:00:53.778+0000] {record_accumulator.py:534} WARNING - KafkaTimeoutError: Batch for TopicPartition(topic='stock', partition=0) containing 1 record(s) expired: 32 seconds have passed since batch creation plus linger time
+[2025-01-01T19:00:53.781+0000] {data_ingestion.py:133} INFO - data send successfully
+[2025-01-01T19:00:55.097+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2025-01-01T19:00:55.099+0000] {data_ingestion.py:28} INFO - {
+    "address1": "One Apple Park Way",
+    "city": "Cupertino",
+    "state": "CA",
+    "zip": "95014",
+    "country": "United States",
+    "phone": "(408) 996-1010",
+    "website": "https://www.apple.com",
+    "industry": "Consumer Electronics",
+    "industryKey": "consumer-electronics",
+    "industryDisp": "Consumer Electronics",
+    "sector": "Technology",
+    "sectorKey": "technology",
+    "sectorDisp": "Technology",
+    "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+    "fullTimeEmployees": 164000,
+    "companyOfficers": [
+        {
+            "maxAge": 1,
+            "name": "Mr. Timothy D. Cook",
+            "age": 63,
+            "title": "CEO & Director",
+            "yearBorn": 1961,
+            "fiscalYear": 2023,
+            "totalPay": 16239562,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Luca  Maestri",
+            "age": 61,
+            "title": "CFO & Senior VP",
+            "yearBorn": 1963,
+            "fiscalYear": 2023,
+            "totalPay": 4612242,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Jeffrey E. Williams",
+            "age": 60,
+            "title": "Chief Operating Officer",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4637585,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Katherine L. Adams",
+            "age": 60,
+            "title": "Senior VP, General Counsel & Secretary",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4618064,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Deirdre  O'Brien",
+            "age": 57,
+            "title": "Chief People Officer & Senior VP of Retail",
+            "yearBorn": 1967,
+            "fiscalYear": 2023,
+            "totalPay": 4613369,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Chris  Kondo",
+            "title": "Senior Director of Corporate Accounting",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Suhasini  Chandramouli",
+            "title": "Director of Investor Relations",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Greg  Joswiak",
+            "title": "Senior Vice President of Worldwide Marketing",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Adrian  Perica",
+            "age": 50,
+            "title": "Head of Corporate Development",
+            "yearBorn": 1974,
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Michael  Fenger",
+            "title": "VP of Worldwide Sales",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        }
+    ],
+    "auditRisk": 3,
+    "boardRisk": 1,
+    "compensationRisk": 3,
+    "shareHolderRightsRisk": 1,
+    "overallRisk": 1,
+    "governanceEpochDate": 1735689600,
+    "compensationAsOfEpochDate": 1703980800,
+    "irWebsite": "http://investor.apple.com/",
+    "maxAge": 86400,
+    "priceHint": 2,
+    "previousClose": 252.2,
+    "open": 252.66,
+    "dayLow": 249.44,
+    "dayHigh": 253.28,
+    "regularMarketPreviousClose": 252.2,
+    "regularMarketOpen": 252.66,
+    "regularMarketDayLow": 249.44,
+    "regularMarketDayHigh": 253.28,
+    "dividendRate": 1.0,
+    "dividendYield": 0.004,
+    "exDividendDate": 1731024000,
+    "payoutRatio": 0.1612,
+    "fiveYearAvgDividendYield": 0.61,
+    "beta": 1.24,
+    "trailingPE": 41.119865,
+    "forwardPE": 30.139963,
+    "volume": 39065518,
+    "regularMarketVolume": 39065518,
+    "averageVolume": 43444376,
+    "averageVolume10days": 52522020,
+    "averageDailyVolume10Day": 52522020,
+    "marketCap": 3785298542592,
+    "fiftyTwoWeekLow": 164.08,
+    "fiftyTwoWeekHigh": 260.1,
+    "priceToSalesTrailing12Months": 9.680204,
+    "fiftyDayAverage": 237.603,
+    "twoHundredDayAverage": 213.40855,
+    "trailingAnnualDividendRate": 0.98,
+    "trailingAnnualDividendYield": 0.0038858051,
+    "currency": "USD",
+    "enterpriseValue": 3839192465408,
+    "profitMargins": 0.23971,
+    "floatShares": 15091184209,
+    "sharesOutstanding": 15115799552,
+    "sharesShort": 156458273,
+    "sharesShortPriorMonth": 141037864,
+    "sharesShortPreviousMonthDate": 1731628800,
+    "dateShortInterest": 1734048000,
+    "sharesPercentSharesOut": 0.0104,
+    "heldPercentInsiders": 0.02056,
+    "heldPercentInstitutions": 0.61924,
+    "shortRatio": 3.67,
+    "shortPercentOfFloat": 0.0104,
+    "impliedSharesOutstanding": 15115799552,
+    "bookValue": 3.767,
+    "priceToBook": 66.4773,
+    "lastFiscalYearEnd": 1727481600,
+    "nextFiscalYearEnd": 1759017600,
+    "mostRecentQuarter": 1727481600,
+    "earningsQuarterlyGrowth": -0.358,
+    "netIncomeToCommon": 93736001536,
+    "trailingEps": 6.09,
+    "forwardEps": 8.31,
+    "lastSplitFactor": "4:1",
+    "lastSplitDate": 1598832000,
+    "enterpriseToRevenue": 9.818,
+    "enterpriseToEbitda": 28.51,
+    "52WeekChange": 0.35913157,
+    "SandP52WeekChange": 0.25013125,
+    "lastDividendValue": 0.25,
+    "lastDividendDate": 1731024000,
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "symbol": "AAPL",
+    "underlyingSymbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "longName": "Apple Inc.",
+    "firstTradeDateEpochUtc": 345479400,
+    "timeZoneFullName": "America/New_York",
+    "timeZoneShortName": "EST",
+    "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
+    "messageBoardId": "finmb_24937",
+    "gmtOffSetMilliseconds": -18000000,
+    "currentPrice": 250.42,
+    "targetHighPrice": 325.0,
+    "targetLowPrice": 184.0,
+    "targetMeanPrice": 246.85358,
+    "targetMedianPrice": 250.0,
+    "recommendationMean": 1.89362,
+    "recommendationKey": "buy",
+    "numberOfAnalystOpinions": 42,
+    "totalCash": 65171001344,
+    "totalCashPerShare": 4.311,
+    "ebitda": 134660997120,
+    "totalDebt": 119058997248,
+    "quickRatio": 0.745,
+    "currentRatio": 0.867,
+    "totalRevenue": 391034994688,
+    "debtToEquity": 209.059,
+    "revenuePerShare": 25.485,
+    "returnOnAssets": 0.21464,
+    "returnOnEquity": 1.5741299,
+    "freeCashflow": 110846001152,
+    "operatingCashflow": 118254002176,
+    "earningsGrowth": -0.341,
+    "revenueGrowth": 0.061,
+    "grossMargins": 0.46206,
+    "ebitdaMargins": 0.34437,
+    "operatingMargins": 0.31171,
+    "financialCurrency": "USD",
+    "trailingPegRatio": 2.2897
+}
+[2025-01-01T19:00:55.100+0000] {logging_mixin.py:190} INFO - {"ticker": "AAPL", "timestamp": "2025-01-01 19:00:55", "open": 252.66, "dayLow": 249.44, "dayHigh": 253.28, "currentPrice": 250.42, "currency": "USD", "volume": 39065518, "marketCap": 3785298542592}
+[2025-01-01T19:00:55.101+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7fef307824d0>
+[2025-01-01T19:00:55.102+0000] {logging_mixin.py:190} INFO - stock
+[2025-01-01T19:00:57.497+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:00:57.499+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:01.220+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:01.222+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:04.926+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:04.927+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:08.639+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:08.641+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:12.365+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:12.366+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:16.065+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:16.066+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:19.789+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:19.790+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:23.503+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:23.505+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:27.207+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:27.208+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:27.209+0000] {record_accumulator.py:73} WARNING - Produced messages to topic-partition ('stock', 0) with base offset -1 log start offset None and error None.
+[2025-01-01T19:01:27.210+0000] {record_accumulator.py:332} WARNING - Expired 1 batches in accumulator
+[2025-01-01T19:01:27.210+0000] {record_accumulator.py:534} WARNING - KafkaTimeoutError: Batch for TopicPartition(topic='stock', partition=0) containing 1 record(s) expired: 32 seconds have passed since batch creation plus linger time
+[2025-01-01T19:01:27.212+0000] {data_ingestion.py:133} INFO - data send successfully
+[2025-01-01T19:01:28.527+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2025-01-01T19:01:28.529+0000] {data_ingestion.py:28} INFO - {
+    "address1": "One Apple Park Way",
+    "city": "Cupertino",
+    "state": "CA",
+    "zip": "95014",
+    "country": "United States",
+    "phone": "(408) 996-1010",
+    "website": "https://www.apple.com",
+    "industry": "Consumer Electronics",
+    "industryKey": "consumer-electronics",
+    "industryDisp": "Consumer Electronics",
+    "sector": "Technology",
+    "sectorKey": "technology",
+    "sectorDisp": "Technology",
+    "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+    "fullTimeEmployees": 164000,
+    "companyOfficers": [
+        {
+            "maxAge": 1,
+            "name": "Mr. Timothy D. Cook",
+            "age": 63,
+            "title": "CEO & Director",
+            "yearBorn": 1961,
+            "fiscalYear": 2023,
+            "totalPay": 16239562,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Luca  Maestri",
+            "age": 61,
+            "title": "CFO & Senior VP",
+            "yearBorn": 1963,
+            "fiscalYear": 2023,
+            "totalPay": 4612242,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Jeffrey E. Williams",
+            "age": 60,
+            "title": "Chief Operating Officer",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4637585,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Katherine L. Adams",
+            "age": 60,
+            "title": "Senior VP, General Counsel & Secretary",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4618064,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Deirdre  O'Brien",
+            "age": 57,
+            "title": "Chief People Officer & Senior VP of Retail",
+            "yearBorn": 1967,
+            "fiscalYear": 2023,
+            "totalPay": 4613369,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Chris  Kondo",
+            "title": "Senior Director of Corporate Accounting",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Suhasini  Chandramouli",
+            "title": "Director of Investor Relations",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Greg  Joswiak",
+            "title": "Senior Vice President of Worldwide Marketing",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Adrian  Perica",
+            "age": 50,
+            "title": "Head of Corporate Development",
+            "yearBorn": 1974,
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Michael  Fenger",
+            "title": "VP of Worldwide Sales",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        }
+    ],
+    "auditRisk": 3,
+    "boardRisk": 1,
+    "compensationRisk": 3,
+    "shareHolderRightsRisk": 1,
+    "overallRisk": 1,
+    "governanceEpochDate": 1735689600,
+    "compensationAsOfEpochDate": 1703980800,
+    "irWebsite": "http://investor.apple.com/",
+    "maxAge": 86400,
+    "priceHint": 2,
+    "previousClose": 252.2,
+    "open": 252.66,
+    "dayLow": 249.44,
+    "dayHigh": 253.28,
+    "regularMarketPreviousClose": 252.2,
+    "regularMarketOpen": 252.66,
+    "regularMarketDayLow": 249.44,
+    "regularMarketDayHigh": 253.28,
+    "dividendRate": 1.0,
+    "dividendYield": 0.004,
+    "exDividendDate": 1731024000,
+    "payoutRatio": 0.1612,
+    "fiveYearAvgDividendYield": 0.61,
+    "beta": 1.24,
+    "trailingPE": 41.119865,
+    "forwardPE": 30.139963,
+    "volume": 39065518,
+    "regularMarketVolume": 39065518,
+    "averageVolume": 43444376,
+    "averageVolume10days": 52522020,
+    "averageDailyVolume10Day": 52522020,
+    "marketCap": 3785298542592,
+    "fiftyTwoWeekLow": 164.08,
+    "fiftyTwoWeekHigh": 260.1,
+    "priceToSalesTrailing12Months": 9.680204,
+    "fiftyDayAverage": 237.603,
+    "twoHundredDayAverage": 213.40855,
+    "trailingAnnualDividendRate": 0.98,
+    "trailingAnnualDividendYield": 0.0038858051,
+    "currency": "USD",
+    "enterpriseValue": 3839192465408,
+    "profitMargins": 0.23971,
+    "floatShares": 15091184209,
+    "sharesOutstanding": 15115799552,
+    "sharesShort": 156458273,
+    "sharesShortPriorMonth": 141037864,
+    "sharesShortPreviousMonthDate": 1731628800,
+    "dateShortInterest": 1734048000,
+    "sharesPercentSharesOut": 0.0104,
+    "heldPercentInsiders": 0.02056,
+    "heldPercentInstitutions": 0.61924,
+    "shortRatio": 3.67,
+    "shortPercentOfFloat": 0.0104,
+    "impliedSharesOutstanding": 15115799552,
+    "bookValue": 3.767,
+    "priceToBook": 66.4773,
+    "lastFiscalYearEnd": 1727481600,
+    "nextFiscalYearEnd": 1759017600,
+    "mostRecentQuarter": 1727481600,
+    "earningsQuarterlyGrowth": -0.358,
+    "netIncomeToCommon": 93736001536,
+    "trailingEps": 6.09,
+    "forwardEps": 8.31,
+    "lastSplitFactor": "4:1",
+    "lastSplitDate": 1598832000,
+    "enterpriseToRevenue": 9.818,
+    "enterpriseToEbitda": 28.51,
+    "52WeekChange": 0.35913157,
+    "SandP52WeekChange": 0.25013125,
+    "lastDividendValue": 0.25,
+    "lastDividendDate": 1731024000,
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "symbol": "AAPL",
+    "underlyingSymbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "longName": "Apple Inc.",
+    "firstTradeDateEpochUtc": 345479400,
+    "timeZoneFullName": "America/New_York",
+    "timeZoneShortName": "EST",
+    "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
+    "messageBoardId": "finmb_24937",
+    "gmtOffSetMilliseconds": -18000000,
+    "currentPrice": 250.42,
+    "targetHighPrice": 325.0,
+    "targetLowPrice": 184.0,
+    "targetMeanPrice": 246.85358,
+    "targetMedianPrice": 250.0,
+    "recommendationMean": 1.89362,
+    "recommendationKey": "buy",
+    "numberOfAnalystOpinions": 42,
+    "totalCash": 65171001344,
+    "totalCashPerShare": 4.311,
+    "ebitda": 134660997120,
+    "totalDebt": 119058997248,
+    "quickRatio": 0.745,
+    "currentRatio": 0.867,
+    "totalRevenue": 391034994688,
+    "debtToEquity": 209.059,
+    "revenuePerShare": 25.485,
+    "returnOnAssets": 0.21464,
+    "returnOnEquity": 1.5741299,
+    "freeCashflow": 110846001152,
+    "operatingCashflow": 118254002176,
+    "earningsGrowth": -0.341,
+    "revenueGrowth": 0.061,
+    "grossMargins": 0.46206,
+    "ebitdaMargins": 0.34437,
+    "operatingMargins": 0.31171,
+    "financialCurrency": "USD",
+    "trailingPegRatio": 2.2897
+}
+[2025-01-01T19:01:28.530+0000] {logging_mixin.py:190} INFO - {"ticker": "AAPL", "timestamp": "2025-01-01 19:01:28", "open": 252.66, "dayLow": 249.44, "dayHigh": 253.28, "currentPrice": 250.42, "currency": "USD", "volume": 39065518, "marketCap": 3785298542592}
+[2025-01-01T19:01:28.531+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7fef307824d0>
+[2025-01-01T19:01:28.531+0000] {logging_mixin.py:190} INFO - stock
+[2025-01-01T19:01:30.931+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:30.932+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:34.647+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:34.649+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:38.364+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:38.366+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:42.071+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:42.073+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:45.796+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:45.798+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:49.511+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:49.513+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:53.229+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:53.230+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:01:56.953+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:01:56.955+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:02:00.684+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:02:00.686+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)
+[2025-01-01T19:02:00.687+0000] {record_accumulator.py:73} WARNING - Produced messages to topic-partition ('stock', 0) with base offset -1 log start offset None and error None.
+[2025-01-01T19:02:00.688+0000] {record_accumulator.py:332} WARNING - Expired 1 batches in accumulator
+[2025-01-01T19:02:00.688+0000] {record_accumulator.py:534} WARNING - KafkaTimeoutError: Batch for TopicPartition(topic='stock', partition=0) containing 1 record(s) expired: 32 seconds have passed since batch creation plus linger time
+[2025-01-01T19:02:00.690+0000] {data_ingestion.py:133} INFO - data send successfully
+[2025-01-01T19:02:02.009+0000] {data_ingestion.py:27} INFO - Data has been fetched successfully!!!
+[2025-01-01T19:02:02.010+0000] {data_ingestion.py:28} INFO - {
+    "address1": "One Apple Park Way",
+    "city": "Cupertino",
+    "state": "CA",
+    "zip": "95014",
+    "country": "United States",
+    "phone": "(408) 996-1010",
+    "website": "https://www.apple.com",
+    "industry": "Consumer Electronics",
+    "industryKey": "consumer-electronics",
+    "industryDisp": "Consumer Electronics",
+    "sector": "Technology",
+    "sectorKey": "technology",
+    "sectorDisp": "Technology",
+    "longBusinessSummary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, and HomePod. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+    "fullTimeEmployees": 164000,
+    "companyOfficers": [
+        {
+            "maxAge": 1,
+            "name": "Mr. Timothy D. Cook",
+            "age": 63,
+            "title": "CEO & Director",
+            "yearBorn": 1961,
+            "fiscalYear": 2023,
+            "totalPay": 16239562,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Luca  Maestri",
+            "age": 61,
+            "title": "CFO & Senior VP",
+            "yearBorn": 1963,
+            "fiscalYear": 2023,
+            "totalPay": 4612242,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Jeffrey E. Williams",
+            "age": 60,
+            "title": "Chief Operating Officer",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4637585,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Katherine L. Adams",
+            "age": 60,
+            "title": "Senior VP, General Counsel & Secretary",
+            "yearBorn": 1964,
+            "fiscalYear": 2023,
+            "totalPay": 4618064,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Deirdre  O'Brien",
+            "age": 57,
+            "title": "Chief People Officer & Senior VP of Retail",
+            "yearBorn": 1967,
+            "fiscalYear": 2023,
+            "totalPay": 4613369,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Chris  Kondo",
+            "title": "Senior Director of Corporate Accounting",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Suhasini  Chandramouli",
+            "title": "Director of Investor Relations",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Greg  Joswiak",
+            "title": "Senior Vice President of Worldwide Marketing",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Adrian  Perica",
+            "age": 50,
+            "title": "Head of Corporate Development",
+            "yearBorn": 1974,
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Michael  Fenger",
+            "title": "VP of Worldwide Sales",
+            "fiscalYear": 2023,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        }
+    ],
+    "auditRisk": 3,
+    "boardRisk": 1,
+    "compensationRisk": 3,
+    "shareHolderRightsRisk": 1,
+    "overallRisk": 1,
+    "governanceEpochDate": 1735689600,
+    "compensationAsOfEpochDate": 1703980800,
+    "irWebsite": "http://investor.apple.com/",
+    "maxAge": 86400,
+    "priceHint": 2,
+    "previousClose": 252.2,
+    "open": 252.66,
+    "dayLow": 249.44,
+    "dayHigh": 253.28,
+    "regularMarketPreviousClose": 252.2,
+    "regularMarketOpen": 252.66,
+    "regularMarketDayLow": 249.44,
+    "regularMarketDayHigh": 253.28,
+    "dividendRate": 1.0,
+    "dividendYield": 0.004,
+    "exDividendDate": 1731024000,
+    "payoutRatio": 0.1612,
+    "fiveYearAvgDividendYield": 0.61,
+    "beta": 1.24,
+    "trailingPE": 41.119865,
+    "forwardPE": 30.139963,
+    "volume": 39065518,
+    "regularMarketVolume": 39065518,
+    "averageVolume": 43444376,
+    "averageVolume10days": 52522020,
+    "averageDailyVolume10Day": 52522020,
+    "marketCap": 3785298542592,
+    "fiftyTwoWeekLow": 164.08,
+    "fiftyTwoWeekHigh": 260.1,
+    "priceToSalesTrailing12Months": 9.680204,
+    "fiftyDayAverage": 237.603,
+    "twoHundredDayAverage": 213.40855,
+    "trailingAnnualDividendRate": 0.98,
+    "trailingAnnualDividendYield": 0.0038858051,
+    "currency": "USD",
+    "enterpriseValue": 3839192465408,
+    "profitMargins": 0.23971,
+    "floatShares": 15091184209,
+    "sharesOutstanding": 15115799552,
+    "sharesShort": 156458273,
+    "sharesShortPriorMonth": 141037864,
+    "sharesShortPreviousMonthDate": 1731628800,
+    "dateShortInterest": 1734048000,
+    "sharesPercentSharesOut": 0.0104,
+    "heldPercentInsiders": 0.02056,
+    "heldPercentInstitutions": 0.61924,
+    "shortRatio": 3.67,
+    "shortPercentOfFloat": 0.0104,
+    "impliedSharesOutstanding": 15115799552,
+    "bookValue": 3.767,
+    "priceToBook": 66.4773,
+    "lastFiscalYearEnd": 1727481600,
+    "nextFiscalYearEnd": 1759017600,
+    "mostRecentQuarter": 1727481600,
+    "earningsQuarterlyGrowth": -0.358,
+    "netIncomeToCommon": 93736001536,
+    "trailingEps": 6.09,
+    "forwardEps": 8.31,
+    "lastSplitFactor": "4:1",
+    "lastSplitDate": 1598832000,
+    "enterpriseToRevenue": 9.818,
+    "enterpriseToEbitda": 28.51,
+    "52WeekChange": 0.35913157,
+    "SandP52WeekChange": 0.25013125,
+    "lastDividendValue": 0.25,
+    "lastDividendDate": 1731024000,
+    "exchange": "NMS",
+    "quoteType": "EQUITY",
+    "symbol": "AAPL",
+    "underlyingSymbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "longName": "Apple Inc.",
+    "firstTradeDateEpochUtc": 345479400,
+    "timeZoneFullName": "America/New_York",
+    "timeZoneShortName": "EST",
+    "uuid": "8b10e4ae-9eeb-3684-921a-9ab27e4d87aa",
+    "messageBoardId": "finmb_24937",
+    "gmtOffSetMilliseconds": -18000000,
+    "currentPrice": 250.42,
+    "targetHighPrice": 325.0,
+    "targetLowPrice": 184.0,
+    "targetMeanPrice": 246.85358,
+    "targetMedianPrice": 250.0,
+    "recommendationMean": 1.89362,
+    "recommendationKey": "buy",
+    "numberOfAnalystOpinions": 42,
+    "totalCash": 65171001344,
+    "totalCashPerShare": 4.311,
+    "ebitda": 134660997120,
+    "totalDebt": 119058997248,
+    "quickRatio": 0.745,
+    "currentRatio": 0.867,
+    "totalRevenue": 391034994688,
+    "debtToEquity": 209.059,
+    "revenuePerShare": 25.485,
+    "returnOnAssets": 0.21464,
+    "returnOnEquity": 1.5741299,
+    "freeCashflow": 110846001152,
+    "operatingCashflow": 118254002176,
+    "earningsGrowth": -0.341,
+    "revenueGrowth": 0.061,
+    "grossMargins": 0.46206,
+    "ebitdaMargins": 0.34437,
+    "operatingMargins": 0.31171,
+    "financialCurrency": "USD",
+    "trailingPegRatio": 2.2897
+}
+[2025-01-01T19:02:02.012+0000] {logging_mixin.py:190} INFO - {"ticker": "AAPL", "timestamp": "2025-01-01 19:02:02", "open": 252.66, "dayLow": 249.44, "dayHigh": 253.28, "currentPrice": 250.42, "currency": "USD", "volume": 39065518, "marketCap": 3785298542592}
+[2025-01-01T19:02:02.012+0000] {logging_mixin.py:190} INFO - <kafka.producer.kafka.KafkaProducer object at 0x7fef307824d0>
+[2025-01-01T19:02:02.013+0000] {logging_mixin.py:190} INFO - stock
+[2025-01-01T19:02:04.413+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka:29092, exception was [Errno -2] Name or service not known. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-01-01T19:02:04.414+0000] {conn.py:315} ERROR - DNS lookup failed for kafka:29092 (0)

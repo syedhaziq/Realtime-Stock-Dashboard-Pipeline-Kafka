@@ -78,5 +78,5 @@ The system integrates real-time and batch processing pipelines with orchestratio
 
 Open `dashboard_real-time.pbix` in Power BI and connect it to your PostgreSQL database.
 
-![Dashboard Preview](images/dashboard.png "System Architecture Overview")
+![Dashboard Preview](images "System Architecture Overview")
 
