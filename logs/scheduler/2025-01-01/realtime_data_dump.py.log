@@ -390,3 +390,178 @@
 [2025-01-01T18:47:11.106+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:47:11.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-01T18:47:11.296+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:47:11.296+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
 [2025-01-01T18:47:11.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.627 seconds
+[2025-01-01T18:47:41.474+0000] {processor.py:186} INFO - Started process (PID=59927) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:47:41.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:47:41.478+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:47:41.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:47:41.991+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:47:42.008+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:47:42.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:47:42.028+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:47:42.027+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:47:42.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.579 seconds
+[2025-01-01T18:48:13.037+0000] {processor.py:186} INFO - Started process (PID=59995) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:13.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:48:13.042+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:13.041+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:13.602+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:13.619+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:13.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:48:13.637+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:13.637+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:48:13.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.628 seconds
+[2025-01-01T18:48:44.290+0000] {processor.py:186} INFO - Started process (PID=60063) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:44.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:48:44.293+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:44.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:44.907+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:48:44.926+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:44.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:48:44.953+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:48:44.953+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:48:44.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.693 seconds
+[2025-01-01T18:49:15.714+0000] {processor.py:186} INFO - Started process (PID=60131) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:15.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:49:15.717+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:15.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:16.227+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:16.243+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:16.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:49:16.263+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:16.262+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:49:16.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.572 seconds
+[2025-01-01T18:49:46.850+0000] {processor.py:186} INFO - Started process (PID=60205) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:46.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:49:46.852+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:46.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:47.336+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:49:47.352+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:47.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:49:47.371+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:49:47.371+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:49:47.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.543 seconds
+[2025-01-01T18:50:18.276+0000] {processor.py:186} INFO - Started process (PID=60273) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:18.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:50:18.279+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:18.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:18.768+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:18.784+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:18.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:50:18.802+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:18.801+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:50:18.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.548 seconds
+[2025-01-01T18:50:48.940+0000] {processor.py:186} INFO - Started process (PID=60341) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:48.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:50:48.942+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:48.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:49.458+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:50:49.474+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:49.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:50:49.491+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:50:49.491+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:50:49.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.574 seconds
+[2025-01-01T18:51:20.178+0000] {processor.py:186} INFO - Started process (PID=60409) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:20.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:51:20.181+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:20.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:20.675+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:20.689+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:20.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:51:20.708+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:20.707+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:51:20.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.551 seconds
+[2025-01-01T18:51:51.397+0000] {processor.py:186} INFO - Started process (PID=60477) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:51.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:51:51.400+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:51.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:51.880+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:51:51.896+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:51.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:51:51.915+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:51:51.914+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:51:51.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.539 seconds
+[2025-01-01T18:52:22.645+0000] {processor.py:186} INFO - Started process (PID=60545) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:22.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:52:22.647+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:22.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:23.135+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:23.151+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:23.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:52:23.169+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:23.169+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:52:23.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.546 seconds
+[2025-01-01T18:52:53.309+0000] {processor.py:186} INFO - Started process (PID=60613) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:53.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:52:53.311+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:53.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:53.834+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:52:53.851+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:53.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:52:53.871+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:52:53.871+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:52:53.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.589 seconds
+[2025-01-01T18:53:23.949+0000] {processor.py:186} INFO - Started process (PID=60681) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:23.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:53:23.951+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:23.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:24.419+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:24.435+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:24.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:53:24.455+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:24.455+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:53:24.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.529 seconds
+[2025-01-01T18:53:54.520+0000] {processor.py:186} INFO - Started process (PID=60749) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:54.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:53:54.523+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:54.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:55.002+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:53:55.017+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:55.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:53:55.033+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:53:55.033+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:53:55.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.535 seconds
+[2025-01-01T18:54:25.531+0000] {processor.py:186} INFO - Started process (PID=60818) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:25.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:54:25.534+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:25.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:26.025+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:26.043+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:26.042+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:54:26.063+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:26.062+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:54:26.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.553 seconds
+[2025-01-01T18:54:56.229+0000] {processor.py:186} INFO - Started process (PID=60888) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:56.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:54:56.231+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:56.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:56.696+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:54:56.710+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:56.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:54:56.728+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:54:56.728+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:54:56.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.522 seconds
+[2025-01-01T18:55:27.556+0000] {processor.py:186} INFO - Started process (PID=60957) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:27.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:55:27.558+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:27.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:28.046+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:28.063+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:28.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:55:28.080+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:28.080+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:55:28.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.549 seconds
+[2025-01-01T18:55:58.944+0000] {processor.py:186} INFO - Started process (PID=61025) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:58.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:55:58.947+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:58.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:59.432+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:55:59.446+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:59.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:55:59.464+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:55:59.464+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:55:59.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.542 seconds
+[2025-01-01T18:56:30.324+0000] {processor.py:186} INFO - Started process (PID=61093) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:56:30.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:56:30.327+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:56:30.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:56:30.818+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:56:30.834+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:56:30.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:56:30.852+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:56:30.851+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:56:30.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.551 seconds
+[2025-01-01T18:57:01.013+0000] {processor.py:186} INFO - Started process (PID=61161) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:01.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:57:01.015+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:01.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:01.511+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:01.526+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:01.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:57:01.544+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:01.543+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:57:01.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.552 seconds
+[2025-01-01T18:57:32.255+0000] {processor.py:186} INFO - Started process (PID=61229) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:32.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:57:32.258+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:32.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:32.769+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:57:32.783+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:32.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:57:32.801+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:57:32.801+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:57:32.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.567 seconds
+[2025-01-01T18:58:03.742+0000] {processor.py:186} INFO - Started process (PID=61297) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:03.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:58:03.745+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:03.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:04.238+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:04.255+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:04.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:58:04.274+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:04.274+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:58:04.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.553 seconds
+[2025-01-01T18:58:34.932+0000] {processor.py:186} INFO - Started process (PID=61365) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:34.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:58:34.935+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:34.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:35.432+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:58:35.447+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:35.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:58:35.465+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:58:35.465+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:58:35.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.553 seconds
+[2025-01-01T18:59:05.615+0000] {processor.py:186} INFO - Started process (PID=61433) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:05.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:59:05.618+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:05.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:06.128+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:06.144+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:06.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:59:06.164+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:06.163+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:59:06.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.571 seconds
+[2025-01-01T18:59:36.552+0000] {processor.py:186} INFO - Started process (PID=61502) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:36.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T18:59:36.555+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:36.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:37.044+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T18:59:37.060+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:37.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T18:59:37.077+0000] {logging_mixin.py:190} INFO - [2025-01-01T18:59:37.077+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T18:59:37.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.547 seconds
+[2025-01-01T19:00:07.904+0000] {processor.py:186} INFO - Started process (PID=61570) to work on /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T19:00:07.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/realtime_data_dump.py for tasks to queue
+[2025-01-01T19:00:07.906+0000] {logging_mixin.py:190} INFO - [2025-01-01T19:00:07.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T19:00:08.422+0000] {processor.py:925} INFO - DAG(s) 'realtime_dump_pipeline' retrieved from /opt/airflow/dags/realtime_data_dump.py
+[2025-01-01T19:00:08.438+0000] {logging_mixin.py:190} INFO - [2025-01-01T19:00:08.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-01T19:00:08.459+0000] {logging_mixin.py:190} INFO - [2025-01-01T19:00:08.459+0000] {dag.py:4180} INFO - Setting next_dagrun for realtime_dump_pipeline to 2025-01-01 09:05:00+00:00, run_after=2025-01-02 09:05:00+00:00
+[2025-01-01T19:00:08.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/realtime_data_dump.py took 0.577 seconds
