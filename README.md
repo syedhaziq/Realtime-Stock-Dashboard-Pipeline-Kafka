@@ -26,6 +26,8 @@ In the fast-paced world of stock trading, real-time data analysis is crucial. Th
 
 The system integrates real-time and batch processing pipelines with orchestration and alerting mechanisms. Here’s an overview:
 
+![Dashboard Preview](images/Architecture.png "System Architecture Overview")
+
 ### 1. Real-Time Data Pipeline
 - **Producer DAG (`realtime_ingestion.py`)**:
   - Fetches stock market data every second using Yahoo Stock API.
@@ -78,5 +80,5 @@ The system integrates real-time and batch processing pipelines with orchestratio
 
 Open `dashboard_real-time.pbix` in Power BI and connect it to your PostgreSQL database.
 
-![Dashboard Preview](images/dashbaord.png "System Architecture Overview")
+![Dashboard Preview](images/dashbaord.png "Dashboard")
 
