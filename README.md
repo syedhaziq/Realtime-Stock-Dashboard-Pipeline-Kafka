@@ -26,7 +26,7 @@ In the fast-paced world of stock trading, real-time data analysis is crucial. Th
 
 The system integrates real-time and batch processing pipelines with orchestration and alerting mechanisms. Here’s an overview:
 
-![Dashboard Preview](images/Architecture.png "System Architecture Overview")
+![Architecture](images/Architecture.jpg "System Architecture Overview")
 
 ### 1. Real-Time Data Pipeline
 - **Producer DAG (`realtime_ingestion.py`)**:
