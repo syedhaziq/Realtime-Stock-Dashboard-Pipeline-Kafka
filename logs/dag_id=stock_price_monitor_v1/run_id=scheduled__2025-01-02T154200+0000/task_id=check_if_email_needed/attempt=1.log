@@ -1,0 +1,29 @@
+[2025-01-02T15:44:05.923+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-02T15:44:05.946+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_price_monitor_v1.check_if_email_needed scheduled__2025-01-02T15:42:00+00:00 [queued]>
+[2025-01-02T15:44:05.957+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_price_monitor_v1.check_if_email_needed scheduled__2025-01-02T15:42:00+00:00 [queued]>
+[2025-01-02T15:44:05.961+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-02T15:44:05.979+0000] {taskinstance.py:2889} INFO - Executing <Task(ShortCircuitOperator): check_if_email_needed> on 2025-01-02 15:42:00+00:00
+[2025-01-02T15:44:05.990+0000] {standard_task_runner.py:72} INFO - Started process 99489 to run task
+[2025-01-02T15:44:05.995+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_price_monitor_v1', 'check_if_email_needed', 'scheduled__2025-01-02T15:42:00+00:00', '--job-id', '1821', '--raw', '--subdir', 'DAGS_FOLDER/email_generation.py', '--cfg-path', '/tmp/tmppmzbm__u']
+[2025-01-02T15:44:05.998+0000] {standard_task_runner.py:105} INFO - Job 1821: Subtask check_if_email_needed
+[2025-01-02T15:44:06.069+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_price_monitor_v1.check_if_email_needed scheduled__2025-01-02T15:42:00+00:00 [running]> on host 95d98a98d27d
+[2025-01-02T15:44:06.200+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haziq' AIRFLOW_CTX_DAG_ID='stock_price_monitor_v1' AIRFLOW_CTX_TASK_ID='check_if_email_needed' AIRFLOW_CTX_EXECUTION_DATE='2025-01-02T15:42:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-02T15:42:00+00:00'
+[2025-01-02T15:44:06.203+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-02T15:44:06.205+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-02T15:44:06.208+0000] {logging_mixin.py:190} INFO - Current task name:check_if_email_needed state:running start_date:2025-01-02 15:44:05.948361+00:00
+[2025-01-02T15:44:06.210+0000] {logging_mixin.py:190} INFO - Dag name:stock_price_monitor_v1 and current dag run status:running
+[2025-01-02T15:44:06.212+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-02T15:44:06.214+0000] {baseoperator.py:416} WARNING - ShortCircuitOperator.execute cannot be called outside TaskInstance!
+[2025-01-02T15:44:06.230+0000] {python.py:240} INFO - Done. Returned value was: False
+[2025-01-02T15:44:06.234+0000] {python.py:309} INFO - Condition result is False
+[2025-01-02T15:44:06.237+0000] {python.py:336} INFO - Skipping downstream tasks
+[2025-01-02T15:44:06.267+0000] {python.py:344} INFO - Done.
+[2025-01-02T15:44:06.294+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-02T15:44:06.297+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_price_monitor_v1, task_id=check_if_email_needed, run_id=scheduled__2025-01-02T15:42:00+00:00, execution_date=20250102T154200, start_date=20250102T154405, end_date=20250102T154406
+[2025-01-02T15:44:06.309+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-02T15:44:06.311+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-02T15:44:06.313+0000] {logging_mixin.py:190} INFO - Dag name:stock_price_monitor_v1 queued_at:2025-01-02 15:44:00.061699+00:00
+[2025-01-02T15:44:06.316+0000] {logging_mixin.py:190} INFO - Task hostname:95d98a98d27d operator:ShortCircuitOperator
+[2025-01-02T15:44:06.332+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-02T15:44:06.352+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-02T15:44:06.357+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
